@@ -1,0 +1,35 @@
+$defaultFontFamily: aktiv-grotesk, BlinkMacSystemFont, -apple-system, Segoe UI,
+  Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+  Helvetica, Arial, sans-serif;
+
+$altFontFamily: Governor, $defaultFontFamily;
+
+@function grid($n) {
+  @return $n * $gridSize;
+}
+$gridSize: 4px;
+
+$maxWidth: 800px;
+
+$red: #ed1651;
+$gray: #8c8c8c;
+$lightGray: #f4f4f4;
+$darkGray: #444444;
+$white: #fff;
+$black: #2c2e35;
+$yellow: #ffcb05;
+$orange: #f5a523;
+$teal: #00868a;
+$green: #058346;
+$blue: #0c6dde;
+$darkBlue: #024ba0;
+$lightBlue: #00a6de;
+$purple: #472f92;
+$backgroundColor: $white;
+
+$borderColor: $lightGray;
+$defaultBorder: solid 1px $borderColor;
+$defaultBoxShadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
+
+$tablet: 750px;
+$mobile: 500px;

@@ -1,0 +1,70 @@
+backend:
+  name: github
+  repo: City-Bureau/field-guide
+
+# publish_mode: editorial_workflow
+
+media_folder: "site/static/img"
+public_folder: "img"
+
+collections:
+  - name: "before-you-begin"
+    label: "Before you begin"
+    folder: "site/content/before-you-begin"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: "In Menu?", name: inmenu, widget: boolean }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "on-assignment"
+    label: "On assignment"
+    folder: "site/content/on-assignment"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: "In Menu?", name: inmenu, widget: boolean }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "frequently-asked-questions"
+    label: "Frequently Asked Questions"
+    folder: "site/content/frequently-asked-questions"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: "In Menu?", name: inmenu, widget: boolean }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: Questions, name: questions, widget: list, fields:
+        - {label: Question, name: question, widget: string }
+        - {label: Answer, name: answer, widget: markdown} }
+  - name: "resources"
+    label: "Resources"
+    folder: "site/content/resources"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: "In Menu?", name: inmenu, widget: boolean }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "contact"
+    label: "Contact"
+    folder: "site/content/contact"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: "In Menu?", name: inmenu, widget: boolean }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "main"
+    label: "Intro"
+    files:
+      - file: "site/content/index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Intro List", name: introlist, widget: list, fields: {
+            - { label: "Item", name: item, widget: markdown }
+          }}
