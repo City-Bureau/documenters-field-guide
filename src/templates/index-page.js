@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import { graphql } from "gatsby"
 import remark from "remark"
 import html from "remark-html"
@@ -31,21 +32,18 @@ const AddToHomeScreen = () => (
 )
 
 export const IndexPageTemplate = ({
-  data: {
-    markdownRemark: {
-      html,
-      frontmatter: { title, description },
-    },
-    allMarkdownRemark: { edges },
-  },
+  title,
+  description,
+  introlist,
+  html,
+  cards,
 }) => (
   <div className="site is-home">
-    <SEO title={title} pathname="/" description={description} />
     <Header siteTitle="Field Guide" />
     <main>
       <section className="intro-list">
         <ol>
-          {INTRO_LIST.map((item, idx) => (
+          {introlist.map((item, idx) => (
             <li
               key={idx}
               dangerouslySetInnerHTML={{
@@ -58,16 +56,9 @@ export const IndexPageTemplate = ({
       <section className="card-section">
         <h2>Assignment Tips and Information</h2>
         <div className="card-grid">
-          {edges.map(
-            ({
-              node: {
-                frontmatter: { title },
-                fields: { slug },
-              },
-            }) => (
-              <Card key={title} title={title} slug={slug} />
-            )
-          )}
+          {cards.map(({ title, slug }) => (
+            <Card key={title} title={title} slug={slug} />
+          ))}
         </div>
       </section>
       <AddToHomeScreen />
@@ -77,7 +68,67 @@ export const IndexPageTemplate = ({
   </div>
 )
 
-export default IndexPageTemplate
+IndexPageTemplate.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  introlist: PropTypes.array,
+  html: PropTypes.node,
+  cards: PropTypes.array,
+}
+
+const IndexPage = ({
+  data: {
+    markdownRemark: {
+      html,
+      frontmatter: { title, description, introlist },
+    },
+    allMarkdownRemark: { edges },
+    site: { siteMetadata },
+    socialImage,
+  },
+}) => {
+  const cards = edges.map(
+    ({
+      node: {
+        frontmatter: { title },
+        fields: { slug },
+      },
+    }) => ({ title, slug })
+  )
+
+  return (
+    <>
+      <SEO
+        title={title}
+        pathname="/"
+        description={description}
+        siteMetadata={siteMetadata}
+        socialImage={socialImage}
+      />
+      <IndexPageTemplate
+        title={title}
+        description={description}
+        introlist={introlist}
+        html={html}
+        cards={cards}
+      />
+    </>
+  )
+}
+
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      html: PropTypes.node,
+      frontmatter: PropTypes.object,
+    }),
+    allMarkdownRemark: PropTypes.array,
+    site: PropTypes.object,
+    socialImage: PropTypes.object,
+  }),
+}
+
+export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -86,6 +137,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        introlist
       }
     }
     allMarkdownRemark(
@@ -99,6 +151,22 @@ export const pageQuery = graphql`
           frontmatter {
             title
           }
+        }
+      }
+    }
+    site {
+      siteMetadata {
+        title
+        description
+        author
+        twitterAuthor
+        siteDomain
+      }
+    }
+    socialImage: file(relativePath: { eq: "social-media.jpg" }) {
+      childImageSharp {
+        fixed(width: 1024) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

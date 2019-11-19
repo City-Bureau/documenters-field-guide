@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: City-Bureau/field-guide
+  repo: City-Bureau/documenters-field-guide
 
 # publish_mode: editorial_workflow
 
@@ -10,7 +10,7 @@ public_folder: "img"
 collections:
   - name: "before-you-begin"
     label: "Before you begin"
-    folder: "site/content/before-you-begin"
+    folder: "src/content/before-you-begin"
     create: true
     fields:
       - { label: Title, name: title, widget: string }
@@ -19,7 +19,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "on-assignment"
     label: "On assignment"
-    folder: "site/content/on-assignment"
+    folder: "src/content/on-assignment"
     create: true
     fields:
       - { label: Title, name: title, widget: string }
@@ -27,20 +27,27 @@ collections:
       - { label: "In Menu?", name: inmenu, widget: boolean }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "frequently-asked-questions"
-    label: "Frequently Asked Questions"
-    folder: "site/content/frequently-asked-questions"
+    label: "FAQs"
+    folder: "src/content/faqs"
     create: true
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Order, name: order, widget: number }
       - { label: "In Menu?", name: inmenu, widget: boolean }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: Questions, name: questions, widget: list, fields:
-        - {label: Question, name: question, widget: string }
-        - {label: Answer, name: answer, widget: markdown} }
+      - {
+          label: Questions,
+          name: questions,
+          widget: list,
+          fields:
+            [
+              { label: Question, name: question, widget: string },
+              { label: Answer, name: answer, widget: markdown },
+            ],
+        }
   - name: "resources"
     label: "Resources"
-    folder: "site/content/resources"
+    folder: "src/content/resources"
     create: true
     fields:
       - { label: Title, name: title, widget: string }
@@ -49,7 +56,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
     label: "Contact"
-    folder: "site/content/contact"
+    folder: "src/content/contact"
     create: true
     fields:
       - { label: Title, name: title, widget: string }
@@ -59,12 +66,16 @@ collections:
   - name: "main"
     label: "Intro"
     files:
-      - file: "site/content/index.md"
+      - file: "src/content/index.md"
         label: "Home Page"
-        name: "home"
+        name: "index"
         fields:
           - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - {
+              label: "Intro List",
+              name: introlist,
+              widget: list,
+              field: { label: "Item", name: item, widget: markdown },
+            }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Intro List", name: introlist, widget: list, fields: {
-            - { label: "Item", name: item, widget: markdown }
-          }}
