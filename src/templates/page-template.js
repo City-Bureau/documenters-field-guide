@@ -27,7 +27,7 @@ const Page = ({
       html,
       tableOfContents,
       fields: { slug },
-      frontmatter: { title, description },
+      frontmatter,
     },
     site: { siteMetadata },
     socialImage,
@@ -35,9 +35,9 @@ const Page = ({
 }) => (
   <>
     <SEO
-      title={title}
+      title={frontmatter.title}
       pathname={slug}
-      description={description}
+      description={frontmatter.description || ``}
       siteMetadata={siteMetadata}
       socialImage={socialImage}
     />
@@ -76,6 +76,22 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+      }
+    }
+    site {
+      siteMetadata {
+        title
+        description
+        author
+        twitterAuthor
+        siteDomain
+      }
+    }
+    socialImage: file(relativePath: { eq: "social-media.jpg" }) {
+      childImageSharp {
+        fixed(width: 1024) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
   }

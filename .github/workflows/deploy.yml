@@ -1,0 +1,36 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+
+env:
+  AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
+  AZURE_STORAGE_ACCOUNT: documentersguide
+  AZURE_CDN_PROFILE: documentersguide
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "10.x"
+
+      - run: yarn
+
+      - run: yarn build
+    # - name: Deploy to Azure
+    #   run: |
+    #     az storage blob sync -c '$web' -s ./public/ --content-cache-control 'max-age=86400' --account-name $AZURE_STORAGE_ACCOUNT
+    #     az storage blob upload -f ./public/admin/config.yml -c '$web' -n admin/config.yml --content-type application/x-yaml --account-name $AZURE_STORAGE_ACCOUNT
+    # - name: Purge CDN
+    #   run: |
+    #     az cdn endpoint purge -g documenters -n $AZURE_STORAGE_ACCOUNT --profile-name $AZURE_CDN_PROFILE --content-paths "/*"

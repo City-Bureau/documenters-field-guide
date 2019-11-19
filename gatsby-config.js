@@ -92,7 +92,15 @@ module.exports = {
         purgeOnly: [`../styles/style.scss`],
       },
     }, // must be after other CSS plugins
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/**`],
+        workboxConfig: {
+          navigateFallback: `/offline`,
+        },
+      },
+    },
     `gatsby-plugin-netlify`, // make sure to keep it last in the array
   ],
 }

@@ -87,6 +87,14 @@ const SEO = ({
         property: `twitter:image:alt`,
         content: `Documenters.org logo`,
       },
+      {
+        property: `apple-mobile-web-app-capable`,
+        content: `yes`,
+      },
+      {
+        property: `apple-mobile-web-app-status-bar-style`,
+        content: `default`,
+      },
     ].concat(meta)}
   >
     <link

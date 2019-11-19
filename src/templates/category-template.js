@@ -31,7 +31,7 @@ const CategoryPage = ({
     markdownRemark: {
       html,
       fields: { slug },
-      frontmatter: { title, description },
+      frontmatter,
     },
     allMarkdownRemark: { edges },
     site: { siteMetadata },
@@ -40,9 +40,9 @@ const CategoryPage = ({
 }) => (
   <>
     <SEO
-      title={title}
+      title={frontmatter.title}
       pathname={slug}
-      description={description}
+      description={frontmatter.description}
       siteMetadata={siteMetadata}
       socialImage={socialImage}
     />
