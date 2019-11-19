@@ -1,8 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
+import remark from "remark"
+import html from "remark-html"
+import recommended from "remark-preset-lint-recommended"
 import { IndexPageTemplate } from "../../templates/index-page"
 
-const IndexPagePreview = ({ entry, widgetFor }) => {
+const processor = remark()
+  .use(recommended)
+  .use(html)
+
+const IndexPagePreview = ({ entry }) => {
   const data = entry.getIn(["data"]).toJS()
 
   if (data) {
@@ -11,7 +18,7 @@ const IndexPagePreview = ({ entry, widgetFor }) => {
         title={data.title}
         description={data.description}
         introlist={data.introlist || []}
-        html={widgetFor("body")}
+        html={processor.processSync(data.body)}
         cards={[
           { title: "Test 1", slug: "#" },
           { title: "Test 2", slug: "#" },
@@ -27,7 +34,6 @@ IndexPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
-  widgetFor: PropTypes.func,
 }
 
 export default IndexPagePreview

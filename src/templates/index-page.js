@@ -10,8 +10,6 @@ import Footer from "../components/footer"
 import SEO from "../components/seo"
 import Card from "../components/card"
 
-const INTRO_LIST = [`Know your rights`, `List item 2`, `list item 3 [link](/)`]
-
 const processor = remark()
   .use(recommended)
   .use(html)
@@ -31,13 +29,7 @@ const AddToHomeScreen = () => (
   </section>
 )
 
-export const IndexPageTemplate = ({
-  title,
-  description,
-  introlist,
-  html,
-  cards,
-}) => (
+export const IndexPageTemplate = ({ introlist, html, cards }) => (
   <div className="site is-home">
     <Header siteTitle="Field Guide" />
     <main>
@@ -69,8 +61,6 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
   introlist: PropTypes.array,
   html: PropTypes.node,
   cards: PropTypes.array,
@@ -95,7 +85,6 @@ const IndexPage = ({
       },
     }) => ({ title, slug })
   )
-
   return (
     <>
       <SEO
@@ -122,7 +111,9 @@ IndexPage.propTypes = {
       html: PropTypes.node,
       frontmatter: PropTypes.object,
     }),
-    allMarkdownRemark: PropTypes.array,
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
     site: PropTypes.object,
     socialImage: PropTypes.object,
   }),

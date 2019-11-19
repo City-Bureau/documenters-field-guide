@@ -1,22 +1,12 @@
 import React from "react"
+import PropTypes from "prop-types"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-// TODO: refactor to the way preview had it set up with props
-const PageTemplate = ({
-  data: {
-    markdownRemark: {
-      html,
-      tableOfContents,
-      fields: { slug },
-      frontmatter: { title, description },
-    },
-  },
-}) => (
-  <Layout>
-    <SEO title={title} pathname={slug} description={description} />
+export const PageTemplate = ({ siteTitle, tableOfContents, html }) => (
+  <Layout title={siteTitle}>
     <div
       className="table-of-contents"
       dangerouslySetInnerHTML={{ __html: tableOfContents }}
@@ -24,6 +14,55 @@ const PageTemplate = ({
     <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
   </Layout>
 )
+
+PageTemplate.propTypes = {
+  siteTitle: PropTypes.string,
+  tableOfContents: PropTypes.node,
+  html: PropTypes.node,
+}
+
+const Page = ({
+  data: {
+    markdownRemark: {
+      html,
+      tableOfContents,
+      fields: { slug },
+      frontmatter: { title, description },
+    },
+    site: { siteMetadata },
+    socialImage,
+  },
+}) => (
+  <>
+    <SEO
+      title={title}
+      pathname={slug}
+      description={description}
+      siteMetadata={siteMetadata}
+      socialImage={socialImage}
+    />
+    <PageTemplate
+      siteTitle={siteMetadata.title}
+      tableOfContents={tableOfContents}
+      html={html}
+    />
+  </>
+)
+
+Page.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      html: PropTypes.node,
+      tableOfContents: PropTypes.node,
+      fields: PropTypes.object,
+      frontmatter: PropTypes.object,
+    }),
+    site: PropTypes.object,
+    socialImage: PropTypes.object,
+  }),
+}
+
+export default Page
 
 export const pageQuery = graphql`
   query PageById($id: String!) {
@@ -41,5 +80,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-export default PageTemplate
