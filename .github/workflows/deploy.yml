@@ -8,6 +8,7 @@ env:
   AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
   AZURE_STORAGE_ACCOUNT: documentersguide
   AZURE_CDN_PROFILE: documentersguide
+  NODE_OPTIONS: --max_old_space_size=4096
 
 jobs:
   deploy:

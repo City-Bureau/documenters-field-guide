@@ -5,18 +5,17 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-export const PageTemplate = ({ siteTitle, tableOfContents, html }) => (
-  <Layout title={siteTitle}>
+export const PageTemplate = ({ tableOfContents, html }) => (
+  <>
     <div
       className="table-of-contents"
       dangerouslySetInnerHTML={{ __html: tableOfContents }}
     />
     <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
-  </Layout>
+  </>
 )
 
 PageTemplate.propTypes = {
-  siteTitle: PropTypes.string,
   tableOfContents: PropTypes.node,
   html: PropTypes.node,
 }
@@ -33,7 +32,7 @@ const Page = ({
     socialImage,
   },
 }) => (
-  <>
+  <Layout title={siteMetadata.title}>
     <SEO
       title={frontmatter.title}
       pathname={slug}
@@ -41,12 +40,8 @@ const Page = ({
       siteMetadata={siteMetadata}
       socialImage={socialImage}
     />
-    <PageTemplate
-      siteTitle={siteMetadata.title}
-      tableOfContents={tableOfContents}
-      html={html}
-    />
-  </>
+    <PageTemplate tableOfContents={tableOfContents} html={html} />
+  </Layout>
 )
 
 Page.propTypes = {

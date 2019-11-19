@@ -13,26 +13,22 @@ const processor = remark()
   .use(recommended)
   .use(html)
 
-export const FaqTemplate = ({ siteTitle, questions }) => (
-  // TODO: Split header from layout so that siteTitle doesn't need to be passed here
-  <Layout title={siteTitle}>
-    <div className="content">
-      <h1>Frequently Asked Questions</h1>
-      {questions.map(({ question, answer }, idx) => (
-        <Accordion id={idx} question={question}>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: processor.processSync(answer),
-            }}
-          />
-        </Accordion>
-      ))}
-    </div>
-  </Layout>
+export const FaqTemplate = ({ questions }) => (
+  <div className="content">
+    <h1>Frequently Asked Questions</h1>
+    {questions.map(({ question, answer }, idx) => (
+      <Accordion id={idx} question={question}>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: processor.processSync(answer),
+          }}
+        />
+      </Accordion>
+    ))}
+  </div>
 )
 
 FaqTemplate.propTypes = {
-  siteTitle: PropTypes.string,
   questions: PropTypes.array,
 }
 
@@ -45,7 +41,7 @@ const FaqPage = ({
     socialImage,
   },
 }) => (
-  <>
+  <Layout title={siteMetadata.tiel}>
     <SEO
       title={title}
       pathname="/"
@@ -54,7 +50,7 @@ const FaqPage = ({
       socialImage={socialImage}
     />
     <FaqTemplate siteTitle={siteMetadata.title} questions={questions} />
-  </>
+  </Layout>
 )
 
 FaqPage.propTypes = {
