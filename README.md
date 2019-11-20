@@ -2,7 +2,7 @@
 
 [![Build status](https://github.com/City-Bureau/documenters-field-guide/workflows/Deploy/badge.svg)](https://github.com/City-Bureau/documenters-field-guide/actions)
 
-Static site for the Documenters Field Guide powered by [Gatsby](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlify.com).
+Static site for the [Documenters](https://www.documenters.org/) Field Guide powered by [Gatsby](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlify.com).
 
 ## Prerequisites
 

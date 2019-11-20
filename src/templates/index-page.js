@@ -25,7 +25,6 @@ const AddToHomeScreen = () => (
         Add the documenters field guide to your home screen and access it like
         an app
       </h2>
-      {/* TODO: Add image, fill in button */}
       <AddToHomeScreenImage />
       <Link
         className="is-button"
