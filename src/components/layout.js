@@ -9,7 +9,7 @@ const Layout = ({ title, children }) => {
   return (
     <div className="site">
       <Header siteTitle={title} />
-      <main>{children}</main>
+      {children}
       <Footer />
     </div>
   )

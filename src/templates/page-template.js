@@ -6,13 +6,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 export const PageTemplate = ({ tableOfContents, html }) => (
-  <>
+  <main>
     <div
       className="table-of-contents"
       dangerouslySetInnerHTML={{ __html: tableOfContents }}
     />
     <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
-  </>
+  </main>
 )
 
 PageTemplate.propTypes = {

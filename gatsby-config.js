@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/staging`,
   siteMetadata: {
     title: `Documenters Field Guide`,
     description: `Field guide for City Bureau's Documenters program`,
@@ -86,19 +87,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-purgecss`, // purges all unused/unreferenced css rules
-      options: {
-        develop: true, // Activates purging in npm run develop
-        purgeOnly: [`../styles/style.scss`],
-      },
-    }, // must be after other CSS plugins
-    {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/**`],
-        workboxConfig: {
-          navigateFallback: `/offline`,
-        },
+        precachePages: [`/**/**.html`],
       },
     },
     `gatsby-plugin-netlify`, // make sure to keep it last in the array

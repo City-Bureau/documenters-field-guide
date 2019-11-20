@@ -1,27 +1,26 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-export const CategoryTemplate = ({ siteTitle, html, links }) => (
-  <Layout title={siteTitle}>
+export const CategoryTemplate = ({ html, links }) => (
+  <main>
     <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
     <div className="table-of-contents">
       <ul>
         {links.map(({ title, slug }) => (
           <li key={slug}>
-            <a href={slug}>{title}</a>
+            <Link to={slug}>{title}</Link>
           </li>
         ))}
       </ul>
     </div>
-  </Layout>
+  </main>
 )
 
 CategoryTemplate.propTypes = {
-  siteTitle: PropTypes.string,
   html: PropTypes.node,
   links: PropTypes.array,
 }
@@ -38,7 +37,7 @@ const CategoryPage = ({
     socialImage,
   },
 }) => (
-  <>
+  <Layout title={siteMetadata.title}>
     <SEO
       title={frontmatter.title}
       pathname={slug}
@@ -58,7 +57,7 @@ const CategoryPage = ({
         }) => ({ title, slug })
       )}
     />
-  </>
+  </Layout>
 )
 
 CategoryPage.propTypes = {

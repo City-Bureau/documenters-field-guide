@@ -14,18 +14,20 @@ const processor = remark()
   .use(html)
 
 export const FaqTemplate = ({ questions }) => (
-  <div className="content">
-    <h1>Frequently Asked Questions</h1>
-    {questions.map(({ question, answer }, idx) => (
-      <Accordion id={idx} question={question}>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: processor.processSync(answer),
-          }}
-        />
-      </Accordion>
-    ))}
-  </div>
+  <main>
+    <div className="content">
+      <h1>Frequently Asked Questions</h1>
+      {questions.map(({ question, answer }, idx) => (
+        <Accordion id={idx} question={question}>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: processor.processSync(answer),
+            }}
+          />
+        </Accordion>
+      ))}
+    </div>
+  </main>
 )
 
 FaqTemplate.propTypes = {

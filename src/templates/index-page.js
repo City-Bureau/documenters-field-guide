@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import remark from "remark"
 import html from "remark-html"
 import recommended from "remark-preset-lint-recommended"
@@ -9,6 +9,8 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
 import Card from "../components/card"
+
+import "../styles/style.scss"
 
 const processor = remark()
   .use(recommended)
@@ -22,9 +24,9 @@ const AddToHomeScreen = () => (
         an app
       </h2>
       {/* TODO: Add image, fill in button */}
-      <a className="is-button" href="#">
+      <Link className="is-button" to="/">
         Learn how
-      </a>
+      </Link>
     </div>
   </section>
 )
