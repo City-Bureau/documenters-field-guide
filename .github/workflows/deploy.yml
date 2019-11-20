@@ -36,4 +36,4 @@ jobs:
 
       - name: Purge CDN
         run: |
-          az cdn endpoint purge -g documenters -n $AZURE_STORAGE_ACCOUNT --profile-name $AZURE_CDN_PROFILE --content-paths "/*"
+          az cdn endpoint purge -g documenters -n $AZURE_STORAGE_ACCOUNT --profile-name $AZURE_CDN_PROFILE --content-paths "/staging/*"

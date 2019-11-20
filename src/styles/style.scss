@@ -57,6 +57,10 @@ strong {
   font-weight: bold;
 }
 
+p {
+  margin: grid(2) 0;
+}
+
 h1 {
   font-size: 24px;
   font-family: $altFontFamily;
@@ -105,6 +109,7 @@ ol {
 }
 
 ul {
+  margin: grid(2) 0;
   padding-left: grid(4);
 
   li {
@@ -186,6 +191,7 @@ a.is-button {
 .header-container {
   margin: 0 auto;
   padding: grid(3) grid(4);
+  padding-top: grid(10);
   max-width: $maxWidth;
   display: flex;
   flex-direction: row;
@@ -293,6 +299,7 @@ main > .content {
   position: relative;
   padding-left: grid(6);
   margin-top: grid(3);
+  cursor: pointer;
 
   .accordion-icon {
     position: absolute;
@@ -317,6 +324,12 @@ main > .content {
 .accordion-content {
   margin-top: grid(2);
   padding-left: grid(6);
+}
+
+.card-section {
+  h2 {
+    margin-bottom: grid(4);
+  }
 }
 
 .card-grid {

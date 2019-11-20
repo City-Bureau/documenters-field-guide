@@ -32,7 +32,7 @@ const Page = ({
     socialImage,
   },
 }) => (
-  <Layout title={siteMetadata.title}>
+  <Layout title={frontmatter.title}>
     <SEO
       title={frontmatter.title}
       pathname={slug}

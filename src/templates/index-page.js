@@ -9,6 +9,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
 import Card from "../components/card"
+import Accordion from "../components/accordion"
 
 import "../styles/style.scss"
 
@@ -31,9 +32,9 @@ const AddToHomeScreen = () => (
   </section>
 )
 
-export const IndexPageTemplate = ({ introlist, html, cards }) => (
+export const IndexPageTemplate = ({ title, introlist, cards, questions }) => (
   <div className="site is-home">
-    <Header siteTitle="Field Guide" />
+    <Header siteTitle={title} />
     <main>
       <section className="intro-list">
         <ol>
@@ -55,24 +56,36 @@ export const IndexPageTemplate = ({ introlist, html, cards }) => (
           ))}
         </div>
       </section>
+      <section className="faq-section">
+        <h2>FAQ</h2>
+        {questions.map(({ question, answer }, idx) => (
+          <Accordion id={idx} question={question}>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: processor.processSync(answer),
+              }}
+            />
+          </Accordion>
+        ))}
+      </section>
       <AddToHomeScreen />
-      <section className="content" dangerouslySetInnerHTML={{ __html: html }} />
     </main>
     <Footer />
   </div>
 )
 
 IndexPageTemplate.propTypes = {
+  title: PropTypes.string,
   introlist: PropTypes.array,
-  html: PropTypes.node,
   cards: PropTypes.array,
+  questions: PropTypes.array,
 }
 
 const IndexPage = ({
   data: {
     markdownRemark: {
       html,
-      frontmatter: { title, description, introlist },
+      frontmatter: { title, description, introlist, questions },
     },
     allMarkdownRemark: { edges },
     site: { siteMetadata },
@@ -98,10 +111,10 @@ const IndexPage = ({
       />
       <IndexPageTemplate
         title={title}
-        description={description}
         introlist={introlist}
         html={html}
         cards={cards}
+        questions={questions}
       />
     </>
   )
@@ -131,6 +144,10 @@ export const pageQuery = graphql`
         title
         description
         introlist
+        questions {
+          question
+          answer
+        }
       }
     }
     allMarkdownRemark(

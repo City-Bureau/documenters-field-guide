@@ -26,25 +26,6 @@ collections:
       - { label: Order, name: order, widget: number }
       - { label: "In Menu?", name: inmenu, widget: boolean }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "faq"
-    label: "FAQs"
-    folder: "src/content/faqs"
-    create: true
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Order, name: order, widget: number }
-      - { label: "In Menu?", name: inmenu, widget: boolean }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - {
-          label: Questions,
-          name: questions,
-          widget: list,
-          fields:
-            [
-              { label: Question, name: question, widget: string },
-              { label: Answer, name: answer, widget: markdown },
-            ],
-        }
   - name: "resources"
     label: "Resources"
     folder: "src/content/resources"
@@ -77,5 +58,15 @@ collections:
               name: introlist,
               widget: list,
               field: { label: "Item", name: item, widget: markdown },
+            }
+          - {
+              label: Questions,
+              name: questions,
+              widget: list,
+              fields:
+                [
+                  { label: Question, name: question, widget: string },
+                  { label: Answer, name: answer, widget: markdown },
+                ],
             }
           - { label: "Body", name: "body", widget: "markdown" }
