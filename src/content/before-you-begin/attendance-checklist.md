@@ -2,8 +2,7 @@
 title: Attendance Checklist
 description: ""
 templateKey: "page-template"
-order: "2"
-inmenu: true
+order: 2
 ---
 
 ## Do

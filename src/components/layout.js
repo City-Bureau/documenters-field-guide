@@ -5,6 +5,7 @@ import Header from "./header"
 import Footer from "./footer"
 import "../styles/style.scss"
 
+// TODO: Set up service worker/indexeddb checkbox functionality
 const Layout = ({ title, children }) => {
   return (
     <div className="site">

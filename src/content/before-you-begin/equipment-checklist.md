@@ -2,8 +2,7 @@
 title: Equipment Checklist
 description: ""
 templateKey: "page-template"
-order: "3"
-inmenu: true
+order: 3
 ---
 
 - [ ] Cell phone

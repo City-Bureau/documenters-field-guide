@@ -269,6 +269,11 @@ main {
   }
 }
 
+// For Netlify admin preview
+.frame-content > main {
+  padding: grid(8) grid(4);
+}
+
 main > .content {
   max-width: $maxWidth;
 }

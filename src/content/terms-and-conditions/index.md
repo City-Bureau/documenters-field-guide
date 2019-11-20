@@ -2,8 +2,7 @@
 title: Terms and Conditions
 description: ""
 templateKey: "page-template"
-order: "1"
-inmenu: true
+order: 1
 ---
 
 ## How does the Documenters.org pay scale work?

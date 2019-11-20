@@ -2,8 +2,7 @@
 title: Identifying Yourself
 description: ""
 templateKey: "page-template"
-order: "1"
-inmenu: true
+order: 1
 ---
 
 ## Identifying yourself

@@ -2,8 +2,7 @@
 title: Mobile Photography
 description: ""
 templateKey: "page-template"
-order: "4"
-inmenu: true
+order: 4
 ---
 
 > When it comes to documentation, text is better with images. Be sure to take video and/or photos of your meeting to add context and color to your notes, social media or newsletter.

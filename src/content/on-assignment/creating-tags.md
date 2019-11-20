@@ -3,7 +3,6 @@ title: Creating Topic Tags
 description: ""
 templateKey: "page-template"
 order: 7
-inmenu: true
 ---
 
 > Topic tags are words and short phrases below that relate directly to your notes and issues raised at your assigned event. These are the search terms people can use to more easily search for information your notes.

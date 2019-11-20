@@ -3,7 +3,6 @@ title: Meeting Notes
 description: ""
 templateKey: "page-template"
 order: 1
-inmenu: true
 ---
 
 > Good notetaking is the most essential skill for good documentation. We’ve listed some best practices below but the truth is, the best notes are the notes that help you record accurate information. Use your raw notes (taken during or shortly thereafter the meeting) to create a more readable, thorough document that you can share on your blog, social media account or for an article or assignment. Good notes will give your readers a sense of place. Describe the mood in the room, interesting gestures, long silences. These details will add color to your writing—but they begin with sharp observation skills.

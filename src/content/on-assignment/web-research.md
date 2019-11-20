@@ -2,8 +2,7 @@
 title: Web Research
 description: ""
 templateKey: "page-template"
-order: "6"
-inmenu: true
+order: 6
 ---
 
 > Accurate news articles, academic research, meeting agendas and related governmental websites can add context and background to your documentation.

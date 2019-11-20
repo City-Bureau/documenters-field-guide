@@ -2,8 +2,7 @@
 title: Attending and Recording Public Meetings
 description: ""
 templateKey: "page-template"
-order: "2"
-inmenu: true
+order: 2
 ---
 
 In the United States, all 50 states have laws that ensure some level of public access to government meetings. These laws are formulated differently in each state, but as a general rule they establish that public-body meetings will be open to the public unless an exception can be demonstrated, that public bodies will provide advance notice of their meetings, and that they will publish minutes of their proceedings. There are exceptions to these laws, mostly for situations when other rights would be compromised by having a discussion in public.

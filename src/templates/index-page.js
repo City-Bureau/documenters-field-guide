@@ -32,50 +32,45 @@ const AddToHomeScreen = () => (
   </section>
 )
 
-export const IndexPageTemplate = ({ title, introlist, cards, questions }) => (
-  <div className="site is-home">
-    <Header siteTitle={title} />
-    <main>
-      <section className="intro-list">
-        <ol>
-          {introlist.map((item, idx) => (
-            <li
-              key={idx}
-              dangerouslySetInnerHTML={{
-                __html: processor.processSync(item),
-              }}
-            />
-          ))}
-        </ol>
-      </section>
-      <section className="card-section">
-        <h2>Assignment Tips and Information</h2>
-        <div className="card-grid">
-          {cards.map(({ title, slug }) => (
-            <Card key={title} title={title} slug={slug} />
-          ))}
-        </div>
-      </section>
-      <section className="faq-section">
-        <h2>FAQ</h2>
-        {questions.map(({ question, answer }, idx) => (
-          <Accordion id={idx} question={question}>
-            <div
-              dangerouslySetInnerHTML={{
-                __html: processor.processSync(answer),
-              }}
-            />
-          </Accordion>
+export const IndexPageTemplate = ({ introlist, cards, questions }) => (
+  <main>
+    <section className="intro-list">
+      <ol>
+        {introlist.map((item, idx) => (
+          <li
+            key={idx}
+            dangerouslySetInnerHTML={{
+              __html: processor.processSync(item),
+            }}
+          />
         ))}
-      </section>
-      <AddToHomeScreen />
-    </main>
-    <Footer />
-  </div>
+      </ol>
+    </section>
+    <section className="card-section">
+      <h2>Assignment Tips and Information</h2>
+      <div className="card-grid">
+        {cards.map(({ title, slug }) => (
+          <Card key={title} title={title} slug={slug} />
+        ))}
+      </div>
+    </section>
+    <section className="faq-section">
+      <h2>FAQ</h2>
+      {questions.map(({ question, answer }, idx) => (
+        <Accordion id={idx} question={question}>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: processor.processSync(answer),
+            }}
+          />
+        </Accordion>
+      ))}
+    </section>
+    <AddToHomeScreen />
+  </main>
 )
 
 IndexPageTemplate.propTypes = {
-  title: PropTypes.string,
   introlist: PropTypes.array,
   cards: PropTypes.array,
   questions: PropTypes.array,
@@ -101,22 +96,23 @@ const IndexPage = ({
     }) => ({ title, slug })
   )
   return (
-    <>
+    <div className="site is-home">
       <SEO
-        title={title}
+        title={siteMetadata.title}
         pathname="/"
         description={description}
         siteMetadata={siteMetadata}
         socialImage={socialImage}
       />
+      <Header siteTitle={title} />
       <IndexPageTemplate
-        title={title}
         introlist={introlist}
         html={html}
         cards={cards}
         questions={questions}
       />
-    </>
+      <Footer />
+    </div>
   )
 }
 
@@ -152,6 +148,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: { fields: { slug: { glob: "/on-assignment/*" } } }
+      sort: { fields: [frontmatter___order], order: ASC }
     ) {
       edges {
         node {
@@ -160,6 +157,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            order
           }
         }
       }

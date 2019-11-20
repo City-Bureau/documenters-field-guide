@@ -52,6 +52,7 @@ module.exports = {
       },
     },
     {
+      // TODO: Figure out emphasis/callout section in markdown
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

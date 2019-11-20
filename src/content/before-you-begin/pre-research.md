@@ -2,8 +2,7 @@
 title: Pre-research
 description: ""
 templateKey: "page-template"
-order: "1"
-inmenu: true
+order: 1
 ---
 
 Once you're assigned to cover a meeting, be sure to study up before you attend. Many of these agencies are not well-known, so walking in prepared enables you to bridge that information gap. If an important issue will be discussed there you definitely want to know a bit about it in advance!

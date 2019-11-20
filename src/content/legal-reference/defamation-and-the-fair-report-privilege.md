@@ -2,8 +2,7 @@
 title: Defamation and the Fair Report Privilege
 description: ""
 templateKey: "page-template"
-order: "3"
-inmenu: true
+order: 3
 ---
 
 ## Defamation Law

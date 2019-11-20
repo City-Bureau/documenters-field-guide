@@ -2,8 +2,7 @@
 title: Glossary of Terms
 description: ""
 templateKey: "page-template"
-order: "5"
-inmenu: true
+order: 5
 ---
 
 - **Adjourn**: to hold a meeting over until a later date.

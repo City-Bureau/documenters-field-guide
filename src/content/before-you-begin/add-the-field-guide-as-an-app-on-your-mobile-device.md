@@ -2,8 +2,7 @@
 title: Add the Field Guide as an App on Your Mobile Device
 description: ""
 templateKey: "page-template"
-order: "1"
-inmenu: true
+order: 1
 ---
 
 On recent versions of iOS and Android you can add the Documenters Field Guide to your home screen and access it like an app. This also lets you access parts of the app without an internet connection.

@@ -2,6 +2,7 @@
 title: Introduction
 templateKey: index-page
 description: ""
+order: 0
 introlist:
   - Know your rights
   - Do your pre-research

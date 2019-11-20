@@ -2,8 +2,7 @@
 title: Illinois Governmental Flowchart
 description: ""
 templateKey: "page-template"
-order: "3"
-inmenu: false
+order: 3
 ---
 
 ## Illinois State Government

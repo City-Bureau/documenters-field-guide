@@ -15,7 +15,6 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Order, name: order, widget: number }
-      - { label: "In Menu?", name: inmenu, widget: boolean }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "on-assignment"
     label: "On assignment"
@@ -24,7 +23,6 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Order, name: order, widget: number }
-      - { label: "In Menu?", name: inmenu, widget: boolean }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "resources"
     label: "Resources"
@@ -33,19 +31,18 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Order, name: order, widget: number }
-      - { label: "In Menu?", name: inmenu, widget: boolean }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "contact"
+  - name: "contact-page"
     label: "Contact"
-    folder: "src/content/contact"
-    create: true
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Order, name: order, widget: number }
-      - { label: "In Menu?", name: inmenu, widget: boolean }
-      - { label: "Body", name: "body", widget: "markdown" }
+    files:
+      - file: "src/content/contact/index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: "main"
-    label: "Intro"
+    label: "Home Page"
     files:
       - file: "src/content/index.md"
         label: "Home Page"

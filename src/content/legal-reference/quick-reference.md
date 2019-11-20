@@ -2,8 +2,7 @@
 title: Quick Reference
 description: ""
 templateKey: "page-template"
-order: "1"
-inmenu: true
+order: 1
 ---
 
 These sections are meant to give you a useful overview of open meetings laws in the states where Documenters operates. This section is a summary and may not include every detail or exception to the laws and court rulings described below. If you run into confusing cases while on assignment we recommend you contact the Documenters Field Coordinator immediately. We have also listed some additional resources at the bottom of this section if you want to learn more about your rights in the field.

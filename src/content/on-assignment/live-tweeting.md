@@ -2,8 +2,7 @@
 title: Live-tweeting
 description: ""
 templateKey: "page-template"
-order: "2"
-inmenu: true
+order: 2
 ---
 
 > Social media is a great way to have your voice heard, inform your community and connect with engaged global citizens. Twitter is a good place to start in addition to platforms such as Facebook, Instagram, and Snapchat.

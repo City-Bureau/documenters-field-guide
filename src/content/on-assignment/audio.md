@@ -2,8 +2,7 @@
 title: Mobile Audio Recording
 description: ""
 templateKey: "page-template"
-order: "5"
-inmenu: true
+order: 5
 ---
 
 > Missed that important quote or phone number? Having a clear audio recording can save time and ensure accuracy by providing a verbatim record. We use audio recordings to share that verbatim record with the public and draft contextualized reports, drawing connections between meetings, board members and public speakers.

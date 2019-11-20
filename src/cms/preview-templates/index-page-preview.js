@@ -14,16 +14,17 @@ const IndexPagePreview = ({ entry }) => {
 
   if (data) {
     return (
-      <IndexPageTemplate
-        title={data.title}
-        description={data.description}
-        introlist={data.introlist || []}
-        html={processor.processSync(data.body)}
-        cards={[
-          { title: "Test 1", slug: "#" },
-          { title: "Test 2", slug: "#" },
-        ]}
-      />
+      <div className="site is-home">
+        <IndexPageTemplate
+          introlist={data.introlist || []}
+          html={processor.processSync(data.body)}
+          cards={[
+            { title: "Test 1", slug: "#" },
+            { title: "Test 2", slug: "#" },
+          ]}
+          questions={data.questions || []}
+        />
+      </div>
     )
   } else {
     return <div>Loading...</div>
