@@ -8,9 +8,56 @@ media_folder: "site/static/img"
 public_folder: "img"
 
 collections:
+  - name: "main"
+    label: "Main Content"
+    files:
+      - file: "src/content/index.md"
+        label: "Home Page"
+        name: "index"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - {
+              label: "Intro List",
+              name: introlist,
+              widget: list,
+              field: { label: "Item", name: item, widget: markdown },
+            }
+          - {
+              label: Questions,
+              name: questions,
+              widget: list,
+              fields:
+                [
+                  { label: Question, name: question, widget: string },
+                  { label: Answer, name: answer, widget: markdown },
+                ],
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/content/contact/index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/content/terms-and-conditions/index.md"
+        label: "Terms and Conditions"
+        name: "terms-and-conditions"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Order, name: order, widget: number }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: "before-you-begin"
     label: "Before you begin"
     folder: "src/content/before-you-begin"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "legal-reference"
+    label: "Legal Reference"
+    folder: "src/content/legal-reference"
     create: true
     fields:
       - { label: Title, name: title, widget: string }
@@ -40,30 +87,4 @@ collections:
         name: "contact"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: "Body", name: "body", widget: "markdown" }
-  - name: "main"
-    label: "Home Page"
-    files:
-      - file: "src/content/index.md"
-        label: "Home Page"
-        name: "index"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: string }
-          - {
-              label: "Intro List",
-              name: introlist,
-              widget: list,
-              field: { label: "Item", name: item, widget: markdown },
-            }
-          - {
-              label: Questions,
-              name: questions,
-              widget: list,
-              fields:
-                [
-                  { label: Question, name: question, widget: string },
-                  { label: Answer, name: answer, widget: markdown },
-                ],
-            }
           - { label: "Body", name: "body", widget: "markdown" }
