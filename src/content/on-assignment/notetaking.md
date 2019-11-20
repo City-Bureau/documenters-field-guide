@@ -5,7 +5,14 @@ templateKey: "page-template"
 order: 1
 ---
 
-> Good notetaking is the most essential skill for good documentation. We’ve listed some best practices below but the truth is, the best notes are the notes that help you record accurate information. Use your raw notes (taken during or shortly thereafter the meeting) to create a more readable, thorough document that you can share on your blog, social media account or for an article or assignment. Good notes will give your readers a sense of place. Describe the mood in the room, interesting gestures, long silences. These details will add color to your writing—but they begin with sharp observation skills.
+> ### Good notetaking is the _most essential skill_ for good documentation.
+>
+> We’ve listed some best practices below but the truth is, the best notes are the notes that help you record accurate information.
+
+## What to Pack
+
+- ![ID icon](/img/ic-id.svg) Your ID (why do I need ID?)
+- ![Pen icon](/img/ic-notes.svg) Something to take notes—whatever you are most comfortable using
 
 ## Assignment Requirements
 
@@ -30,16 +37,16 @@ order: 1
 
 ## Checklist
 
-- Count or estimate the number of attendees (not including officials)
-- Log what time the meeting started
-- Include names of presenters at the meeting, including titles and affiliations
-- Describe at least three stated goals of the meeting
-- Describe the main concerns of attendees and why those concerns were raised
-- Describe or list next steps and solutions presented at the meeting
-- Name and quote community members who spoke or presented at the meeting— you may need to approach them after the meeting to ensure you have their names spelled correctly
-- Note features of the room and the overall environment of the meeting
-- **Recommended:** Take photos and/or audio or video recording of the meeting. Feel free to move about the room to capture the best images.
-- **For digital notes only:** Add links to news stories, research reports, previous meetings notes and related governmental websites in your text
+- [ ] Count or estimate the number of attendees (not including officials)
+- [ ] Log what time the meeting started
+- [ ] Include names of presenters at the meeting, including titles and affiliations
+- [ ] Describe at least three stated goals of the meeting
+- [ ] Describe the main concerns of attendees and why those concerns were raised
+- [ ] Describe or list next steps and solutions presented at the meeting
+- [ ] Name and quote community members who spoke or presented at the meeting— you may need to approach them after the meeting to ensure you have their names spelled correctly
+- [ ] Note features of the room and the overall environment of the meeting
+- [ ] **Recommended:** Take photos and/or audio or video recording of the meeting. Feel free to move about the room to capture the best images.
+- [ ] **For digital notes only:** Add links to news stories, research reports, previous meetings notes and related governmental websites in your text
 
 ## Meeting Notes Template and Style Guide
 
@@ -61,13 +68,3 @@ The Google Doc shared with your assignment is preset with the styles listed belo
 - Grammar and punctuation: Associated Press Stylebook
   - Complete sentences and/or bullet-pointed lists
   - In-line hyperlinks
-
-## On Assignment Now?
-
-**In Chicago:**
-
-Call or text 708-820-2154 any time with any questions or concerns. For any non-immediate needs email us directly at documenters@citybureau.org.
-
-**In Detroit:**
-
-Call or text 313-510-5523 any time with any questions or concerns. For any non-immediate needs email us directly at vassilis@citizendetroit.org.
