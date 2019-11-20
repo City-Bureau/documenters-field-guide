@@ -8,3 +8,4 @@ static/admin/*.bundle.*
 .DS_Store
 .vscode
 yarn-error.log
+.env

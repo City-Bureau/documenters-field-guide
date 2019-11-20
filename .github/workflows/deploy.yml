@@ -29,11 +29,4 @@ jobs:
 
       - run: yarn build
 
-      - name: Deploy to Azure
-        run: |
-          az storage blob sync -c '$web' -s ./public/ -d 'staging' --account-name $AZURE_STORAGE_ACCOUNT
-          az storage blob upload -f ./public/admin/config.yml -c '$web' -n staging/admin/config.yml --content-type application/x-yaml --account-name $AZURE_STORAGE_ACCOUNT
-
-      - name: Purge CDN
-        run: |
-          az cdn endpoint purge -g documenters -n $AZURE_STORAGE_ACCOUNT --profile-name $AZURE_CDN_PROFILE --content-paths "/*"
+      - run: make deploy
