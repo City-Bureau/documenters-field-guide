@@ -1,12 +1,16 @@
-import React from "react"
+import React, { useEffect } from "react"
 import PropTypes from "prop-types"
 
+import { activateCheckboxes, setupDatabase } from "../utils/checkboxes"
 import Header from "./header"
 import Footer from "./footer"
 import "../styles/style.scss"
 
-// TODO: Set up service worker/indexeddb checkbox functionality
 const Layout = ({ title, children }) => {
+  useEffect(() => {
+    activateCheckboxes()
+    setupDatabase()
+  }, [])
   return (
     <div className="site">
       <Header siteTitle={title} />
