@@ -94,13 +94,3 @@ We prefer in-the-moment tweets but if you're unable to tweet at the meeting or a
 6. Your thread won’t go live until you hit “Tweet all."
 
 ![](/img/screen-shot-2019-01-29-at-4.09.29-pm.png)
-
-## On Assignment Now?
-
-**In Chicago:**
-
-Call or text 708-820-2154 any time with any questions or concerns. For any non-immediate needs email us directly at documenters@citybureau.org.
-
-**In Detroit:**
-
-Call or text 313-510-5523 any time with any questions or concerns. For any non-immediate needs email us directly at vassilis@citizendetroit.org.

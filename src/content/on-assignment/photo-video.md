@@ -30,13 +30,3 @@ order: 4
 - [ ] Remember the rule of thirds:
 
 ![Rule of thirds diagram](/img/thirds.png)
-
-## On Assignment Now?
-
-**In Chicago:**
-
-Call or text 708-820-2154 any time with any questions or concerns. For any non-immediate needs email us directly at documenters@citybureau.org.
-
-**In Detroit:**
-
-Call or text 313-510-5523 any time with any questions or concerns. For any non-immediate needs email us directly at vassilis@citizendetroit.org.

@@ -422,6 +422,7 @@ main > .content {
   h2 {
     color: $white;
     font-family: $altFontFamily;
+    margin-bottom: grid(4);
   }
 
   a.is-button {

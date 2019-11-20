@@ -10,6 +10,7 @@ import Footer from "../components/footer"
 import SEO from "../components/seo"
 import Card from "../components/card"
 import Accordion from "../components/accordion"
+import AddToHomeScreenImage from "../components/add-to-home-screen-image"
 
 import "../styles/style.scss"
 
@@ -25,7 +26,11 @@ const AddToHomeScreen = () => (
         an app
       </h2>
       {/* TODO: Add image, fill in button */}
-      <Link className="is-button" to="/">
+      <AddToHomeScreenImage />
+      <Link
+        className="is-button"
+        to="/before-you-begin/add-the-field-guide-as-an-app-on-your-mobile-device/"
+      >
         Learn how
       </Link>
     </div>
@@ -57,7 +62,7 @@ export const IndexPageTemplate = ({ introlist, cards, questions }) => (
     <section className="faq-section">
       <h2>FAQ</h2>
       {questions.map(({ question, answer }, idx) => (
-        <Accordion id={idx} question={question}>
+        <Accordion key={idx} id={`${idx}`} question={question}>
           <div
             dangerouslySetInnerHTML={{
               __html: processor.processSync(answer),
