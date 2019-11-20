@@ -86,6 +86,14 @@ header {
 blockquote {
   border-left: solid 2px $yellow;
   padding-left: grid(3);
+
+  h1,
+  h2,
+  h3 {
+    font-size: 24px;
+    font-family: $defaultFontFamily;
+    font-weight: 300;
+  }
 }
 
 ol {
