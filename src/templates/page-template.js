@@ -26,20 +26,12 @@ const Page = ({
       html,
       tableOfContents,
       fields: { slug },
-      frontmatter,
+      frontmatter: { title, description },
     },
-    site: { siteMetadata },
-    socialImage,
   },
 }) => (
-  <Layout title={frontmatter.title}>
-    <SEO
-      title={frontmatter.title}
-      pathname={slug}
-      description={frontmatter.description || ``}
-      siteMetadata={siteMetadata}
-      socialImage={socialImage}
-    />
+  <Layout title={title}>
+    <SEO title={title} pathname={slug} description={description || ``} />
     <PageTemplate tableOfContents={tableOfContents} html={html} />
   </Layout>
 )
@@ -52,8 +44,6 @@ Page.propTypes = {
       fields: PropTypes.object,
       frontmatter: PropTypes.object,
     }),
-    site: PropTypes.object,
-    socialImage: PropTypes.object,
   }),
 }
 
@@ -64,29 +54,13 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
-      tableOfContents
+      tableOfContents(maxDepth: 3)
       fields {
         slug
       }
       frontmatter {
         title
         description
-      }
-    }
-    site {
-      siteMetadata {
-        title
-        description
-        author
-        twitterAuthor
-        siteDomain
-      }
-    }
-    socialImage: file(relativePath: { eq: "social-media.jpg" }) {
-      childImageSharp {
-        fixed(width: 1024) {
-          ...GatsbyImageSharpFixed
-        }
       }
     }
   }

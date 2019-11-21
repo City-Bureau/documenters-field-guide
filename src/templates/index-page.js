@@ -87,8 +87,6 @@ const IndexPage = ({
       frontmatter: { title, description, introlist, questions },
     },
     allMarkdownRemark: { edges },
-    site: { siteMetadata },
-    socialImage,
   },
 }) => {
   const cards = edges.map(
@@ -101,13 +99,7 @@ const IndexPage = ({
   )
   return (
     <div className="site is-home">
-      <SEO
-        title={siteMetadata.title}
-        pathname="/"
-        description={description}
-        siteMetadata={siteMetadata}
-        socialImage={socialImage}
-      />
+      <SEO title={title} pathname="/" description={description} />
       <Header siteTitle={title} />
       <IndexPageTemplate
         introlist={introlist}
@@ -129,8 +121,6 @@ IndexPage.propTypes = {
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
     }),
-    site: PropTypes.object,
-    socialImage: PropTypes.object,
   }),
 }
 
@@ -163,22 +153,6 @@ export const pageQuery = graphql`
             title
             order
           }
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        title
-        description
-        author
-        twitterAuthor
-        siteDomain
-      }
-    }
-    socialImage: file(relativePath: { eq: "social-media.jpg" }) {
-      childImageSharp {
-        fixed(width: 1024) {
-          ...GatsbyImageSharpFixed
         }
       }
     }

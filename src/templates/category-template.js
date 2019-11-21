@@ -33,20 +33,15 @@ const CategoryPage = ({
       frontmatter,
     },
     allMarkdownRemark: { edges },
-    site: { siteMetadata },
-    socialImage,
   },
 }) => (
-  <Layout title={siteMetadata.title}>
+  <Layout title={frontmatter.title}>
     <SEO
       title={frontmatter.title}
       pathname={slug}
       description={frontmatter.description}
-      siteMetadata={siteMetadata}
-      socialImage={socialImage}
     />
     <CategoryTemplate
-      siteTitle={siteMetadata.title}
       html={html}
       links={edges.map(
         ({
@@ -82,7 +77,6 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
-      tableOfContents
       fields {
         slug
       }
@@ -103,22 +97,6 @@ export const pageQuery = graphql`
           frontmatter {
             title
           }
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        title
-        description
-        author
-        twitterAuthor
-        siteDomain
-      }
-    }
-    socialImage: file(relativePath: { eq: "social-media.jpg" }) {
-      childImageSharp {
-        fixed(width: 1024) {
-          ...GatsbyImageSharpFixed
         }
       }
     }

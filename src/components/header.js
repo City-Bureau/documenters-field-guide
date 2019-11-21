@@ -2,19 +2,18 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => {
-  return (
-    <header>
-      <div className="header-container">
-        <div>
-          <h1>
-            <Link to="/">{siteTitle}</Link>
-          </h1>
-        </div>
+// TODO: If generalizing to a navigation, pull this from static query
+const Header = ({ siteTitle }) => (
+  <header>
+    <div className="header-container">
+      <div>
+        <h1>
+          <Link to="/">{siteTitle}</Link>
+        </h1>
       </div>
-    </header>
-  )
-}
+    </div>
+  </header>
+)
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

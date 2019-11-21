@@ -11,11 +11,11 @@ This guide is focused on the open meetings laws in the states where Documenters 
 
 Both states’ open meetings acts establish the public’s right to attend and record public body meetings.
 
-### What qualifies as a public body?
+# What qualifies as a public body?
 
 The Illinois Open Meetings Act and the Michigan Open Meetings Act both apply to all “public bodies.”
 
-#### In Illinois
+## In Illinois
 
 Illinois defines public bodies as:
 

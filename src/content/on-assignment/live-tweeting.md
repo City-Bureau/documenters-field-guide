@@ -7,7 +7,7 @@ order: 2
 
 > Social media is a great way to have your voice heard, inform your community and connect with engaged global citizens. Twitter is a good place to start in addition to platforms such as Facebook, Instagram, and Snapchat.
 
-## Assignment Requirements
+# Assignment Requirements
 
 - All Documenters live-tweeting assignments must be tweeting in a single “thread”—see further instructions on threading below.
 - Post at least 10-15 tweets, including photos
@@ -25,13 +25,13 @@ order: 2
 - Conclude your Twitter thread with a sign off, for example:
   _Meeting adjourned at 12:15 p.m. This concludes the \[Your City] Board of Education meeting. The next meeting is scheduled for March 23, 2019. For more meeting coverage, check out documenters.org._
 
-## Example Live Tweet Threads
+# Example Live Tweet Threads
 
 [Example #1](https://twitter.com/thedryones/status/1004100082285891584)\
 [Example #2](https://twitter.com/grenadine/status/1039628341849063428)\
 [Example #3](https://twitter.com/o_stovicek/status/1088464145056518144)
 
-## Tips
+# Tips
 
 1. **Get the details:** List names of presenters at the meeting (include titles, affiliations and twitter handles, if applicable, and any stated goals of the meeting. When possible include solutions and next steps presented.
 2. **Post visuals:** Add multimedia (Twitter allows for photos, videos and GIFs) and links to relevant external content, such as timely news articles and official website links.
@@ -39,19 +39,19 @@ order: 2
 4. **Join the conversation:** Retweeting can be as useful as tweeting. Watch and quote tweet conversations related to your meeting or the issue at hand via hashtags, i.e. words or unspaced phrases with a number sign or pound sign (#) placed before it (ex: #Documenters #FieldGuide).
 5. **Describe the scene:** Describe features of the room and/or the overall environment (i.e. Was the crowd eager or angry? Did the presenters seem prepared?)
 
-## Checklist
+# Checklist
 
-- Do you have a Twitter account? Is it set to public so anyone can follow along with your live-tweet threads? If so, great! If you don't have a Twitter account or prefer to keep yours on private settings, create a new account [here](https://twitter.com/i/flow/signup).
-- Call ahead to check for available wi-fi connection
-- Search and use popular or common hashtags related to the meeting, department or issue
-- Send multiple tweets via a single “thread”
-- Check your notifications for replies and responses
-- When possible, refer to people and organizations directly by using the @ function
-- Tweet video and/or photos of the meeting along with your posted text
-- See the Meeting Notes Guide for more content recommendations
-- Follow local officials and attendees for future updates and communication
+- [ ] Do you have a Twitter account? Is it set to public so anyone can follow along with your live-tweet threads? If so, great! If you don't have a Twitter account or prefer to keep yours on private settings, create a new account [here](https://twitter.com/i/flow/signup).
+- [ ] Call ahead to check for available wi-fi connection
+- [ ] Search and use popular or common hashtags related to the meeting, department or issue
+- [ ] Send multiple tweets via a single “thread”
+- [ ] Check your notifications for replies and responses
+- [ ] When possible, refer to people and organizations directly by using the @ function
+- [ ] Tweet video and/or photos of the meeting along with your posted text
+- [ ] See the Meeting Notes Guide for more content recommendations
+- [ ] Follow local officials and attendees for future updates and communication
 
-## Threading Your Tweets
+# Threading Your Tweets
 
 Threading keeps your tweets together and in order so that others can easily access and make sense of your live-tweet coverage. Practice threading in advance to make sure you'll be able to do it correctly during a meeting.
 
