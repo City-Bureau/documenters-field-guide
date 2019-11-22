@@ -53,7 +53,7 @@ const syncCheckboxes = (db, data) => {
 }
 
 export const setupDatabase = () => {
-  if (!"indexedDB" in window) {
+  if (!("indexedDB" in window)) {
     console.log("No IndexedDB")
     return
   }

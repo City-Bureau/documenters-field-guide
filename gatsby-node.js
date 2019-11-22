@@ -65,3 +65,21 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+// Ensure that FAQ questions array is always present even if empty
+exports.sourceNodes = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type FaqQuestion {
+      question: String!
+      answer: String!
+    }
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type Frontmatter {
+      questions: [FaqQuestion!]!
+    }
+  `
+  createTypes(typeDefs)
+}

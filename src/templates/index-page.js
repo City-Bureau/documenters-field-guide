@@ -58,18 +58,22 @@ export const IndexPageTemplate = ({ introlist, cards, questions }) => (
         ))}
       </div>
     </section>
-    <section className="faq-section">
-      <h2>FAQ</h2>
-      {questions.map(({ question, answer }, idx) => (
-        <Accordion key={idx} id={`${idx}`} question={question}>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: processor.processSync(answer),
-            }}
-          />
-        </Accordion>
-      ))}
-    </section>
+    {questions.length > 0 ? (
+      <section className="faq-section">
+        <h2>FAQ</h2>
+        {questions.map(({ question, answer }, idx) => (
+          <Accordion key={idx} id={`${idx}`} question={question}>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: processor.processSync(answer),
+              }}
+            />
+          </Accordion>
+        ))}
+      </section>
+    ) : (
+      ``
+    )}
     <AddToHomeScreen />
   </main>
 )
