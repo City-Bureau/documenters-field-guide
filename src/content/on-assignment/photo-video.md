@@ -2,6 +2,7 @@
 title: Mobile Photography
 description: ""
 templateKey: "page-template"
+image: "/img/mobile-photography-and-video.png"
 order: 4
 ---
 

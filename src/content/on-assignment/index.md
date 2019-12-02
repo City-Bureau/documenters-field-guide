@@ -2,6 +2,7 @@
 title: On Assignment
 description: ""
 templateKey: "category-template"
+image: "/img/default.png"
 order: 0
 ---
 

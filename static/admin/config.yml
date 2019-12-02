@@ -70,6 +70,12 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Order, name: order, widget: number }
+      - {
+          label: Image,
+          name: image,
+          widget: image,
+          default: "/img/default.png",
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "legal-reference"
     label: "Legal Reference"
@@ -78,6 +84,12 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Order, name: order, widget: number }
+      - {
+          label: Image,
+          name: image,
+          widget: image,
+          default: "/img/default.png",
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "on-assignment"
     label: "On assignment"
@@ -85,6 +97,12 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string }
+      - {
+          label: Image,
+          name: image,
+          widget: image,
+          default: "/img/default.png",
+        }
       - { label: Order, name: order, widget: number }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "resources"
@@ -94,6 +112,12 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Order, name: order, widget: number }
+      - {
+          label: Image,
+          name: image,
+          widget: image,
+          default: "/img/default.png",
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact-page"
     label: "Contact"

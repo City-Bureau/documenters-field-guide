@@ -2,6 +2,7 @@
 title: Contact Us
 description: ""
 templateKey: "ignore"
+image: "/img/default.png"
 order: 0
 ---
 

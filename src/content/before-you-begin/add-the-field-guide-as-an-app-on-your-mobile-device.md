@@ -2,6 +2,7 @@
 title: Add the Field Guide as an App on Your Mobile Device
 description: ""
 templateKey: "page-template"
+image: "/img/default.png"
 order: 1
 ---
 

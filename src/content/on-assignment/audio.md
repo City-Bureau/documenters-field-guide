@@ -2,6 +2,7 @@
 title: Mobile Audio Recording
 description: ""
 templateKey: "page-template"
+image: "/img/mobile-audio-recording.png"
 order: 5
 ---
 

@@ -2,6 +2,7 @@
 title: Live-tweeting
 description: ""
 templateKey: "page-template"
+image: "/img/live-tweeting.png"
 order: 2
 ---
 

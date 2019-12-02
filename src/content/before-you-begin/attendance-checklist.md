@@ -2,6 +2,7 @@
 title: Attendance Checklist
 description: ""
 templateKey: "page-template"
+image: "/img/default.png"
 order: 2
 ---
 

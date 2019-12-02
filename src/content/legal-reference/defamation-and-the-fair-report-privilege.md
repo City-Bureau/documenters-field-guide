@@ -2,6 +2,7 @@
 title: Defamation and the Fair Report Privilege
 description: ""
 templateKey: "page-template"
+image: "/img/default.png"
 order: 3
 ---
 

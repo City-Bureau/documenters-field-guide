@@ -2,6 +2,7 @@
 title: Glossary of Terms
 description: ""
 templateKey: "page-template"
+image: "/img/default.png"
 order: 5
 ---
 

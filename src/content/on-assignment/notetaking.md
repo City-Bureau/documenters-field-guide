@@ -2,6 +2,7 @@
 title: Meeting Notes
 description: ""
 templateKey: "page-template"
+image: "/img/notetaking.png"
 order: 1
 ---
 

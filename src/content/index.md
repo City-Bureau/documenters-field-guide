@@ -2,6 +2,7 @@
 title: Documenters Field Guide
 templateKey: index-page
 description: ""
+image: "/img/default.png"
 order: 0
 beforeyoubegin:
   - >

@@ -2,6 +2,7 @@
 title: Freedom of Information Act Requests
 description: ""
 templateKey: "page-template"
+image: "/img/default.png"
 order: 4
 ---
 

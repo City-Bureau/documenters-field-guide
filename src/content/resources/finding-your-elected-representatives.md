@@ -2,6 +2,7 @@
 title: Finding Your Elected Representatives
 description: ""
 templateKey: "page-template"
+image: "/img/default.png"
 order: 2
 ---
 

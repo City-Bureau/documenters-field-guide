@@ -2,6 +2,7 @@
 title: Attending and Recording Public Meetings
 description: ""
 templateKey: "page-template"
+image: "/img/default.png"
 order: 2
 ---
 

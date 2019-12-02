@@ -2,6 +2,7 @@
 title: Web Research
 description: ""
 templateKey: "page-template"
+image: "/img/web-research.png"
 order: 6
 ---
 

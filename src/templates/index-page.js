@@ -72,8 +72,8 @@ export const IndexPageTemplate = ({
     <section className="card-section">
       <h2>Assignment Tips and Information</h2>
       <div className="card-grid">
-        {cards.map(({ title, slug }) => (
-          <Card key={title} title={title} slug={slug} />
+        {cards.map(({ title, slug, image }) => (
+          <Card key={title} title={title} image={image} slug={slug} />
         ))}
       </div>
     </section>
@@ -140,10 +140,10 @@ const IndexPage = ({
   const cards = edges.map(
     ({
       node: {
-        frontmatter: { title },
+        frontmatter: { title, image },
         fields: { slug },
       },
-    }) => ({ title, slug })
+    }) => ({ title, image, slug })
   )
   return (
     <div className="site is-home">
@@ -215,6 +215,13 @@ export const pageQuery = graphql`
           frontmatter {
             title
             order
+            image {
+              childImageSharp {
+                fixed(width: 128, height: 156) {
+                  ...GatsbyImageSharpFixed_noBase64
+                }
+              }
+            }
           }
         }
       }

@@ -2,6 +2,7 @@
 title: Illinois Governmental Flowchart
 description: ""
 templateKey: "page-template"
+image: "/img/default.png"
 order: 3
 ---
 

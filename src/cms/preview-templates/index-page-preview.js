@@ -20,8 +20,16 @@ const IndexPagePreview = ({ entry }) => {
           onassignment={data.onassignment || []}
           html={processor.processSync(data.body)}
           cards={[
-            { title: "Test 1", slug: "#" },
-            { title: "Test 2", slug: "#" },
+            {
+              title: "Test 1",
+              slug: "#",
+              image: { childImageSharp: { fixed: {} } },
+            },
+            {
+              title: "Test 2",
+              slug: "#",
+              image: { childImageSharp: { fixed: {} } },
+            },
           ]}
           payment={data.payment || []}
           questions={data.questions || []}
