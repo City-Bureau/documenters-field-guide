@@ -274,7 +274,9 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: grid(14) 0;
+  padding: 0;
+  padding-top: grid(14);
+  padding-bottom: grid(3);
   width: 100%;
 
   div {
@@ -284,7 +286,7 @@ footer {
     flex: 1;
 
     &:last-child {
-      margin-top: grid(5);
+      margin-top: grid(10);
     }
   }
 

@@ -17,7 +17,7 @@ order: 2
 - Fulfill any Documenters assignment goals as instructed (i.e. comprehensive notes, live-tweeting, etc.)
 - Gather any documents distributed or created during the meeting, such as board/committee agendas, worksheets and informational packets
 - Does the government body have a newsletter or listserv? Sign up for it using the documenters@citybureau.org email address
-- **Recommended**: Feel free to introduce yourself to attendees and committee/board members (see [Identifying yourself](/on-assignment/identifying-yourself/) for more information)
+- **Recommended**: Feel free to introduce yourself to attendees and committee/board members (see [Identifying yourself](/resources/identifying-yourself/) for more information)
 - **Recommended**: At the end of the meeting, ask the meeting secretary for their notes to compare
 
 ## Do not
