@@ -13,7 +13,7 @@ const Layout = ({ title, children }) => {
   }, [])
   return (
     <div className="site">
-      <Header siteTitle={title} />
+      <Header title={title} />
       {children}
       <Footer />
     </div>

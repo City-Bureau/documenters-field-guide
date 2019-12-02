@@ -66,11 +66,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-// Ensure that FAQ questions array is always present even if empty
+// Ensure that FAQ questions and payment arrays are always present even if empty
 exports.sourceNodes = ({ actions }) => {
   const { createTypes } = actions
   const typeDefs = `
-    type FaqQuestion {
+    type Question {
       question: String!
       answer: String!
     }
@@ -78,7 +78,8 @@ exports.sourceNodes = ({ actions }) => {
       frontmatter: Frontmatter
     }
     type Frontmatter {
-      questions: [FaqQuestion!]!
+      questions: [Question!]!
+      payment: [Question!]!
     }
   `
   createTypes(typeDefs)

@@ -14,6 +14,7 @@ const Footer = () => {
   return (
     <footer>
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
+      <div>Powered by City Bureau</div>
     </footer>
   )
 }

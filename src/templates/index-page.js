@@ -5,7 +5,6 @@ import remark from "remark"
 import html from "remark-html"
 import recommended from "remark-preset-lint-recommended"
 
-import Header from "../components/header"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
 import Card from "../components/card"
@@ -36,11 +35,31 @@ const AddToHomeScreen = () => (
   </section>
 )
 
-export const IndexPageTemplate = ({ introlist, cards, questions }) => (
+export const IndexPageTemplate = ({
+  beforeyoubegin,
+  onassignment,
+  cards,
+  payment,
+  questions,
+}) => (
   <main>
     <section className="intro-list">
+      <h2>Before you begin</h2>
       <ol>
-        {introlist.map((item, idx) => (
+        {beforeyoubegin.map((item, idx) => (
+          <li
+            key={idx}
+            dangerouslySetInnerHTML={{
+              __html: processor.processSync(item),
+            }}
+          />
+        ))}
+      </ol>
+    </section>
+    <section className="intro-list">
+      <h2>On Assignment</h2>
+      <ol>
+        {onassignment.map((item, idx) => (
           <li
             key={idx}
             dangerouslySetInnerHTML={{
@@ -58,6 +77,22 @@ export const IndexPageTemplate = ({ introlist, cards, questions }) => (
         ))}
       </div>
     </section>
+    {payment.length > 0 ? (
+      <section className="faq-section">
+        <h2>Payment</h2>
+        {payment.map(({ question, answer }, idx) => (
+          <Accordion key={idx} id={`${idx}`} question={question}>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: processor.processSync(answer),
+              }}
+            />
+          </Accordion>
+        ))}
+      </section>
+    ) : (
+      ``
+    )}
     {questions.length > 0 ? (
       <section className="faq-section">
         <h2>FAQ</h2>
@@ -79,8 +114,10 @@ export const IndexPageTemplate = ({ introlist, cards, questions }) => (
 )
 
 IndexPageTemplate.propTypes = {
-  introlist: PropTypes.array,
+  beforeyoubegin: PropTypes.array,
+  onassignment: PropTypes.array,
   cards: PropTypes.array,
+  payment: PropTypes.array,
   questions: PropTypes.array,
 }
 
@@ -88,7 +125,14 @@ const IndexPage = ({
   data: {
     markdownRemark: {
       html,
-      frontmatter: { title, description, introlist, questions },
+      frontmatter: {
+        title,
+        description,
+        beforeyoubegin,
+        onassignment,
+        payment,
+        questions,
+      },
     },
     allMarkdownRemark: { edges },
   },
@@ -104,11 +148,21 @@ const IndexPage = ({
   return (
     <div className="site is-home">
       <SEO title={title} pathname="/" description={description} />
-      <Header siteTitle={title} />
+      <header>
+        <div className="header-container">
+          <div>
+            <h1>
+              <Link to="/">{title}</Link>
+            </h1>
+          </div>
+        </div>
+      </header>
       <IndexPageTemplate
-        introlist={introlist}
+        beforeyoubegin={beforeyoubegin}
+        onassignment={onassignment}
         html={html}
         cards={cards}
+        payment={payment}
         questions={questions}
       />
       <Footer />
@@ -137,7 +191,12 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        introlist
+        beforeyoubegin
+        onassignment
+        payment {
+          question
+          answer
+        }
         questions {
           question
           answer

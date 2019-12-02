@@ -18,10 +18,26 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Description, name: description, widget: string }
           - {
-              label: "Intro List",
-              name: introlist,
+              label: "Before you begin",
+              name: beforeyoubegin,
               widget: list,
               field: { label: "Item", name: item, widget: markdown },
+            }
+          - {
+              label: "On assignment",
+              name: onassignment,
+              widget: list,
+              field: { label: "Item", name: item, widget: markdown },
+            }
+          - {
+              label: Payment,
+              name: payment,
+              widget: list,
+              fields:
+                [
+                  { label: Question, name: question, widget: string },
+                  { label: Answer, name: answer, widget: markdown },
+                ],
             }
           - {
               label: Questions,

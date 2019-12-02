@@ -16,12 +16,14 @@ const IndexPagePreview = ({ entry }) => {
     return (
       <div className="site is-home">
         <IndexPageTemplate
-          introlist={data.introlist || []}
+          beforeyoubegin={data.beforeyoubegin || []}
+          onassignment={data.onassignment || []}
           html={processor.processSync(data.body)}
           cards={[
             { title: "Test 1", slug: "#" },
             { title: "Test 2", slug: "#" },
           ]}
+          payment={data.payment || []}
           questions={data.questions || []}
         />
       </div>
