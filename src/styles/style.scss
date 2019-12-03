@@ -404,18 +404,25 @@ main > .content {
   }
 
   section:not(.add-to-home-screen-section) {
-    margin: 0 auto;
     flex: 1;
     width: 100%;
     max-width: $maxWidth;
-    padding: grid(4);
+    padding: 0 grid(4);
+    margin: grid(5) auto;
+
+    h1,
+    h2,
+    h3 {
+      margin: grid(2) 0;
+      margin-bottom: grid(5);
+    }
 
     &.faq-section {
       padding-bottom: grid(10);
     }
 
     &.intro-list {
-      padding: grid(2) grid(4);
+      padding: 0 grid(4);
     }
   }
 

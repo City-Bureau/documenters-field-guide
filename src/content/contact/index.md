@@ -10,11 +10,11 @@ order: 0
 
 ### Chicago
 
-Call or text 555-555-5555
+Call or text 708-820-2154
 
 ### Detroit
 
-Call or text 555-555-5555
+Call or text 313-510-5523
 
 ### Non-immediate needs
 

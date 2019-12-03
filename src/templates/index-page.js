@@ -79,7 +79,7 @@ export const IndexPageTemplate = ({
     </section>
     {payment.length > 0 ? (
       <section className="faq-section">
-        <h2>Payment</h2>
+        <h2 id="payment">Payment</h2>
         {payment.map(({ question, answer }, idx) => (
           <Accordion key={idx} id={`${idx}`} question={question}>
             <div
