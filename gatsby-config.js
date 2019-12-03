@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: `/staging`,
   siteMetadata: {
     title: `Documenters Field Guide`,
     description: `Field guide for City Bureau's Documenters program`,

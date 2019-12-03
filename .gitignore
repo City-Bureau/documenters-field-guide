@@ -4,8 +4,6 @@ node_modules
 .cache/
 # Build directory
 public/
-# Temporary staging directory
-staging/
 static/admin/*.bundle.*
 .DS_Store
 .vscode
