@@ -43,10 +43,12 @@ module.exports = {
       options: {
         name: `Documenters Field Guide`,
         short_name: `Field Guide`,
+        description: `Field guide for City Bureau's Documenters program`,
+        scope: `/`,
         start_url: `/`,
         background_color: `#ffe222`,
         theme_color: `#ffe222`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/img/icon.png`,
       },
     },
@@ -89,7 +91,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/**/**.html`],
+        precachePages: [`/**`],
       },
     },
     `gatsby-plugin-netlify`, // make sure to keep it last in the array
