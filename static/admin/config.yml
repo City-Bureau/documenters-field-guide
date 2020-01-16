@@ -16,7 +16,14 @@ collections:
         name: "index"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: string }
+          - { label: Description, name: description, widget: text }
+          - label: Template
+            name: pageTemplate,
+            widget: select
+            options:
+              - label: Index
+                value: index-page
+            default: index-page
           - {
               label: "Before you begin",
               name: beforeyoubegin,
@@ -55,12 +62,36 @@ collections:
         name: "contact"
         fields:
           - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - label: Template
+            name: pageTemplate,
+            widget: select
+            options:
+              - label: Page
+                value: page-template
+              - label: Category
+                value: category-template
+              - label: Ignore
+                value: ignore
+            default: page-template
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/content/terms-and-conditions/index.md"
         label: "Terms and Conditions"
         name: "terms-and-conditions"
         fields:
           - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - label: Template
+            name: pageTemplate,
+            widget: select
+            options:
+              - label: Page
+                value: page-template
+              - label: Category
+                value: category-template
+              - label: Ignore
+                value: ignore
+            default: page-template
           - { label: Order, name: order, widget: number }
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "before-you-begin"
@@ -69,6 +100,18 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - label: Template
+        name: pageTemplate,
+        widget: select
+        options:
+          - label: Page
+            value: page-template
+          - label: Category
+            value: category-template
+          - label: Ignore
+            value: ignore
+        default: page-template
       - { label: Order, name: order, widget: number }
       - {
           label: Image,
@@ -83,6 +126,18 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - label: Template
+        name: pageTemplate,
+        widget: select
+        options:
+          - label: Page
+            value: page-template
+          - label: Category
+            value: category-template
+          - label: Ignore
+            value: ignore
+        default: page-template
       - { label: Order, name: order, widget: number }
       - {
           label: Image,
@@ -97,6 +152,18 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - label: Template
+        name: pageTemplate,
+        widget: select
+        options:
+          - label: Page
+            value: page-template
+          - label: Category
+            value: category-template
+          - label: Ignore
+            value: ignore
+        default: page-template
       - {
           label: Image,
           name: image,
@@ -111,6 +178,18 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - label: Template
+        name: pageTemplate,
+        widget: select
+        options:
+          - label: Page
+            value: page-template
+          - label: Category
+            value: category-template
+          - label: Ignore
+            value: ignore
+        default: page-template
       - { label: Order, name: order, widget: number }
       - {
           label: Image,
@@ -127,4 +206,16 @@ collections:
         name: "contact"
         fields:
           - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - label: Template
+            name: pageTemplate,
+            widget: select
+            options:
+              - label: Page
+                value: page-template
+              - label: Category
+                value: category-template
+              - label: Ignore
+                value: ignore
+            default: page-template
           - { label: "Body", name: "body", widget: "markdown" }
