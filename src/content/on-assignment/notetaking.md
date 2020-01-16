@@ -1,25 +1,21 @@
 ---
 title: Meeting Notes
-description: ""
-templateKey: "page-template"
-image: "/img/notetaking.png"
+image: /img/notetaking.png
 order: 1
 ---
-
-> ### Good notetaking is the _most essential skill_ for good documentation.
+> ### Good notetaking is the *most essential skill* for good documentation.
 >
 > We’ve listed some best practices below but the truth is, the best notes are the notes that help you record accurate information.
 
 ## What to Pack
 
-- ![ID icon](/img/ic-id.svg) Your ID (why do I need ID?)
-- ![Pen icon](/img/ic-notes.svg) Something to take notes—whatever you are most comfortable using
+* ![Pen icon](/img/ic-notes.svg) Something to take notes—whatever you are most comfortable using
 
 ## Assignment Requirements
 
-- Your meeting notes should be 1-3 pages in length, single-spaced, and submitted via the Google Doc attached to your assignment. The correct Google Doc is shared to your email address each time you are assigned to document a meeting. See **Sample Meeting Notes Template** and **Example Meeting Notes** below for what to expect.
-- Include 8-10 hyperlinks throughout the text of your notes (a hyperlink is a link in your text that connects readers with an external website).
-- Submit your notes within 24 hours after the meeting ends.
+* Your meeting notes should be 1-3 pages in length, single-spaced, and submitted via the Google Doc attached to your assignment. The correct Google Doc is shared to your email address each time you are assigned to document a meeting. See **Sample Meeting Notes Template** and **Example Meeting Notes** below for what to expect.
+* Include 8-10 hyperlinks throughout the text of your notes (a hyperlink is a link in your text that connects readers with an external website).
+* Submit your notes within 24 hours after the meeting ends.
 
 ## Example Meeting Notes
 
@@ -38,34 +34,22 @@ order: 1
 
 ## Checklist
 
-- [ ] Count or estimate the number of attendees (not including officials)
-- [ ] Log what time the meeting started
-- [ ] Include names of presenters at the meeting, including titles and affiliations
-- [ ] Describe at least three stated goals of the meeting
-- [ ] Describe the main concerns of attendees and why those concerns were raised
-- [ ] Describe or list next steps and solutions presented at the meeting
-- [ ] Name and quote community members who spoke or presented at the meeting— you may need to approach them after the meeting to ensure you have their names spelled correctly
-- [ ] Note features of the room and the overall environment of the meeting
-- [ ] **Recommended:** Take photos and/or audio or video recording of the meeting. Feel free to move about the room to capture the best images.
-- [ ] **For digital notes only:** Add links to news stories, research reports, previous meetings notes and related governmental websites in your text
+* Count or estimate the number of attendees (not including officials)
+* Log what time the meeting started
+* Include names of presenters at the meeting, including titles and affiliations
+* Describe at least three stated goals of the meeting
+* Describe the main concerns of attendees and why those concerns were raised
+* Describe or list next steps and solutions presented at the meeting
+* Name and quote community members who spoke or presented at the meeting— you may need to approach them after the meeting to ensure you have their names spelled correctly
+* Note features of the room and the overall environment of the meeting
+* **Recommended:** Take photos and/or audio or video recording of the meeting. Feel free to move about the room to capture the best images.
+* **For digital notes only:** Add links to news stories, research reports, previous meetings notes and related governmental websites in your text
 
-## Meeting Notes Template and Style Guide
+## Using Google Docs
 
-When you are assigned to take notes at a meeting, a Google Doc for your notes is automatically generated and shared with you. To make sure you receive access, use a Gmail account when you sign up with Documenters or [create a Google account](https://accounts.google.com/signUpWithoutGmail) for an existing, non-Google email.
+You may take notes in whatever format you like, however, the final submission must be typed or copied and pasted in the Google Doc shared via email when you are assigned.
 
-You will be able to access and edit the Google Doc from the email notification or your Google Drive "Shared with me" files. It will also appear as a thumbnail on your Documenters.org submission page. Click [here](https://docs.google.com/document/d/1gTzeR845sKvShXYXkKNhVcWbUI_m42Rm4oDLkAo9iYk/edit?usp=sharing) to view a sample template.
-
-The Google Doc shared with your assignment is preset with the styles listed below. If you take your notes in another program, such as Microsoft Word, keep the formatting simple or paste your text into your assigned Google Doc without formatting (ctrl-shift-v). Click [here](https://support.google.com/docs/topic/9046002?hl=en&ref_topic=1382883) for more tips on how to use Google Docs.
-
-- Font: Nunito, black
-  - Normal Text: 12 pt
-  - Heading 1: 14 pt, bold
-  - Heading 2: 12 pt, bold, italicized
-- Lines and spacing
-  - 1.15 line spacing
-  - No space after section headings
-  - No space between list items
-  - Space after paragraphs
-- Grammar and punctuation: Associated Press Stylebook
-  - Complete sentences and/or bullet-pointed lists
-  - In-line hyperlinks
+* Use a Gmail account when you sign up with Documenters or [create a Google account](https://accounts.google.com/signUpWithoutGmail) for an existing, non-Google email.
+* Access the Google Doc any time by clicking on the link in the email or the thumbnail on your Documenters.org assignment page.
+* View the [notes template](https://docs.google.com/document/d/1gTzeR845sKvShXYXkKNhVcWbUI_m42Rm4oDLkAo9iYk/edit?usp=sharing).
+*  [Learn more](https://support.google.com/docs/topic/9046002?hl=en&ref_topic=1382883) about how to use Google Docs.
