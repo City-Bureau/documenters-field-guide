@@ -9,13 +9,11 @@ order: 6
 
 Here are some avenues for further exploration:
 
-## The basics
+## The Basics
 
 Start with an online search of keywords related to the department holding your meeting. Timely news articles about City Council can be searched with the appropriate search terms, for example, "Detroit City Council" AND the names of specific council members, i.e. "Councilman James Smith" OR a combination of topics related to your interest, i.e. "Alderman Joe Moore Chicago City Council participatory budgeting".
 
 Seek out primary sources and trusted news outlets for the most up-to-date and accurate information.
-
-
 
 ## Research and Resource Tips
 
@@ -27,8 +25,6 @@ Seek out primary sources and trusted news outlets for the most up-to-date and ac
 6. Use multiple search engines
 7. Review quality news content related to your topic (quality news outlets will have a track record of excellence, and a quality story will often feature a byline, links to source materials, multiple sources and good spelling/grammar)
 8. Taking notes? Copy/paste or hyperlink relevant webpages for reference
-
-
 
 ## Chicago
 
