@@ -39,6 +39,21 @@ order: 1
 
 4. Use your time efficiently—submissions are due 24 hours after the meeting ends because your notes are best when they’re fresh. Be thorough but concise––you can’t get everything, but you’ve been trained to do this. You deserve to be here. Be confident in your abilities and embrace the learning process.
 
+
+
+**Suggested Checklist**
+
+* Count or estimate the number of attendees (not including officials)
+* Log what time the meeting started
+* Include names of presenters at the meeting, including titles and affiliations
+* Describe at least three stated goals of the meeting
+* Describe the main concerns of attendees and why those concerns were raised
+* Describe or list next steps and solutions presented at the meeting
+* Name and quote community members who spoke or presented at the meeting— you may need to approach them after the meeting to ensure you have their names spelled correctly
+* Note features of the room and the overall environment of the meeting
+* **Recommended:** Take photos and/or audio or video recording of the meeting. Feel free to move about the room to capture the best images.
+* **For digital notes only:** Add links to news stories, research reports, previous meetings notes and related governmental websites in your text
+
 ## Revision tips: Make your notes shine
 
 Are your notes reasonably complete?
@@ -77,21 +92,6 @@ Briefly list 3-5 of the most important discussions, policies or outcomes of this
   * Is it really necessary for the full City Council to vote to permit a restaurant to put up signage or have sidewalk seating?
 
 
-
-
-
-## Checklist
-
-* Count or estimate the number of attendees (not including officials)
-* Log what time the meeting started
-* Include names of presenters at the meeting, including titles and affiliations
-* Describe at least three stated goals of the meeting
-* Describe the main concerns of attendees and why those concerns were raised
-* Describe or list next steps and solutions presented at the meeting
-* Name and quote community members who spoke or presented at the meeting— you may need to approach them after the meeting to ensure you have their names spelled correctly
-* Note features of the room and the overall environment of the meeting
-* **Recommended:** Take photos and/or audio or video recording of the meeting. Feel free to move about the room to capture the best images.
-* **For digital notes only:** Add links to news stories, research reports, previous meetings notes and related governmental websites in your text
 
 ## Using Google Docs
 
