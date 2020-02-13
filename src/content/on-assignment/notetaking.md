@@ -32,14 +32,9 @@ order: 1
 ## Notetaking Tips: Make the most of your time
 
 1. Note the most information in a way that works for you—feel free to abbreviate, use shorthand or draw. Just be sure to organize and revise for your readers after the meeting
-
 2. Make a conscious effort to listen and learn; be accurate and hear different perspectives
-
 3. Record audio and timestamp (i.e. jot down times for) portions you want to double-check
-
 4. Use your time efficiently—submissions are due 24 hours after the meeting ends because your notes are best when they’re fresh. Be thorough but concise––you can’t get everything, but you’ve been trained to do this. You deserve to be here. Be confident in your abilities and embrace the learning process.
-
-
 
 **Suggested Checklist**
 
@@ -78,7 +73,7 @@ Section headers by topic can help your reader process your work. Here are some s
 * Policies | Agenda and action items, presented policies, ordinances or amendments
 * Outcomes | Successes, solutions and/or next steps
 
-## Summary tips: Distill the important parts
+## Summary and follow-up tips: Distill the important parts
 
 Briefly list 3-5 of the most important discussions, policies or outcomes of this meeting and up to 3 of your own follow-up questions. Think of this as a preview for readers—consider what is “newsworthy.” What’s the most important thing people need to know, what’s second and third most important thing? Each bullet point should be no more than 1-3 sentences. Remember, the bulk of your notes should be written in the “Notes” section.
 
@@ -90,8 +85,6 @@ Briefly list 3-5 of the most important discussions, policies or outcomes of this
   * How will the county follow up on and ensure that the Minority/Women-Owned Business Enterprise (MWBE) requirements for this planned development are fulfilled?
   * Has or could a community create a hyperlocal property tax district to sustain affordable housing in a gentrifying neighborhood?
   * Is it really necessary for the full City Council to vote to permit a restaurant to put up signage or have sidewalk seating?
-
-
 
 ## Using Google Docs
 
