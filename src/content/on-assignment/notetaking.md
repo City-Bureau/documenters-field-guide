@@ -20,8 +20,8 @@ order: 1
 
 ## Assignment Requirements
 
-* See our notes template for instructions. 
-* Submit your notes within 24 hours after the meeting ends.
+* See our notes template for instructions
+* Submit your notes, summary and follow-up questions within 24 hours after the meeting ends
 
 ## Example Meeting Notes
 
@@ -85,12 +85,3 @@ Briefly list 3-5 of the most important discussions, policies or outcomes of this
   * How will the county follow up on and ensure that the Minority/Women-Owned Business Enterprise (MWBE) requirements for this planned development are fulfilled?
   * Has or could a community create a hyperlocal property tax district to sustain affordable housing in a gentrifying neighborhood?
   * Is it really necessary for the full City Council to vote to permit a restaurant to put up signage or have sidewalk seating?
-
-## Using Google Docs
-
-You may take notes in whatever format you like, however, the final submission must be typed or copied and pasted in the Google Doc shared via email when you are assigned.
-
-* Use a Gmail account when you sign up with Documenters or [create a Google account](https://accounts.google.com/signUpWithoutGmail) for an existing, non-Google email.
-* Access the Google Doc any time by clicking on the link in the email or the thumbnail on your Documenters.org assignment page.
-* View the [notes template](https://docs.google.com/document/d/1gTzeR845sKvShXYXkKNhVcWbUI_m42Rm4oDLkAo9iYk/edit?usp=sharing).
-* [Learn more](https://support.google.com/docs/topic/9046002?hl=en&ref_topic=1382883) about how to use Google Docs.
