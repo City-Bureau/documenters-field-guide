@@ -85,3 +85,11 @@ Briefly list 3-5 of the most important discussions, policies or outcomes of this
   * How will the county follow up on and ensure that the Minority/Women-Owned Business Enterprise (MWBE) requirements for this planned development are fulfilled?
   * Has or could a community create a hyperlocal property tax district to sustain affordable housing in a gentrifying neighborhood?
   * Is it really necessary for the full City Council to vote to permit a restaurant to put up signage or have sidewalk seating?
+
+## Using Google Docs
+
+You may take notes in whatever format you like, however, the final submission must be typed or copied and pasted in the Google Doc shared via email when you are assigned.
+
+* Use a Gmail account when you sign up with Documenters or create a Google account for an existing, non-Google email.
+* Access the Google Doc any time by clicking on the link in the email or the thumbnail on your Documenters.org assignment page.
+* Learn more about how to use Google Docs.
