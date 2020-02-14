@@ -51,27 +51,22 @@ order: 1
 
 ## Revision tips: Make your notes shine
 
-Are your notes reasonably complete?
-
-* Refer to any handouts you picked up at the meeting—they may contain ordinance numbers, board member names and other important details 
-* Spell out abbreviations in your notes
-* Previous meetings or relevant themes may have been covered in the news. Check out reliable news outlets for additional context and hyperlinks
-
-Are your notes reasonably accurate?
-
-* Check facts and spelling in your notes
-* “Use quotation marks around words that are not your own” and identify the speaker or including a hyperlink to the Internet source
-* Listen back to audio timestamps to get exact quotes
-* Read more on how to avoid plagiarism and why it’s complicated
-
-Section headers by topic can help your reader process your work. Here are some sample headers you can use to arrange your notes and make them more easily readable:
-
-* The Scene | Nervous energy in the room? Were people excited? Tell us why
-* Community Perspective | Public comments and concerns
-* Goals | Stated goals of the meeting or big-picture focus of the agency
-* The Debate | Disagreements on the major issues and potential solutions at play
-* Policies | Agenda and action items, presented policies, ordinances or amendments
-* Outcomes | Successes, solutions and/or next steps
+* Are your notes reasonably complete?
+  * Refer to any handouts you picked up at the meeting—they may contain ordinance numbers, board member names and other important details 
+  * Spell out abbreviations in your notes
+  * Previous meetings or relevant themes may have been covered in the news. Check out reliable news outlets for additional context and hyperlinks
+* Are your notes reasonably accurate?
+  * Check facts and spelling in your notes
+  * “Use quotation marks around words that are not your own” and identify the speaker or including a hyperlink to the Internet source
+  * Listen back to audio timestamps to get exact quotes
+  * Read more on how to avoid plagiarism and why it’s complicated
+* Section headers by topic can help your reader process your work. Here are some sample headers you can use to arrange your notes and make them more easily readable:
+  * The Scene | Nervous energy in the room? Were people excited? Tell us why
+  * Community Perspective | Public comments and concerns
+  * Goals | Stated goals of the meeting or big-picture focus of the agency
+  * The Debate | Disagreements on the major issues and potential solutions at play
+  * Policies | Agenda and action items, presented policies, ordinances or amendments
+  * Outcomes | Successes, solutions and/or next steps
 
 ## Summary and follow-up tips: Distill the important parts
 
