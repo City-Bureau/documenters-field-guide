@@ -123,14 +123,14 @@ ul {
   li {
     margin-bottom: grid(3);
     position: relative;
-    list-style: none;
 
     &:not(.task-list-item) {
-      padding-left: grid(3);
+      padding-left: grid(2);
 
       img {
         position: absolute;
         left: grid(-4);
+        background-color: $white;
       }
     }
 
