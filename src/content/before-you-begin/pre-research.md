@@ -15,20 +15,13 @@ Once you're assigned to cover a meeting, be sure to study up before you attend. 
 * Check for relevant previous Documenters content in the [Published view ](https://chicago.documenters.org/assignments/?alt=true)of the Assignments tab.
 * See our [Web Research](https://fieldguide.documenters.org/on-assignment/web-research/) tab for more tips and resources for finding reliable websites and sources that you can post during live-tweeting assignments or hyperlink in your meeting notes.
 
-
-
 **Questions to ask**
 
-What is the purpose of this agency?
-
-* Write up a short description of your agency––you’ll have a stronger understanding if you take the time to put its mission statement or legislative authority in your own words
-* View any available documentation—ex: the official agenda for your meeting, the agency’s website, any previous Documenters coverage and any relevant news articles
-
-Who should be there? 
-
-* View elected or appointed agency members names (and headshots, when available). 
-* Groups affected by this agency may also be present—see past coverage for mentions of organizations or individuals
-
-What is the focus of this meeting?
-
-* If a detailed agenda is posted, identify 1-3 items you find significant or worth reading up on for you own reference
+* What is the purpose of this agency?
+  * Write up a short description of your agency––you’ll have a stronger understanding if you take the time to put its mission statement or legislative authority in your own words
+  * View any available documentation—ex: the official agenda for your meeting, the agency’s website, any previous Documenters coverage and any relevant news articles
+* Who should be there? 
+  * View elected or appointed agency members names (and headshots, when available). 
+  * Groups affected by this agency may also be present—see past coverage for mentions of organizations or individuals
+* What is the focus of this meeting?
+  * If a detailed agenda is posted, identify 1-3 items you find significant or worth reading up on for you own reference
