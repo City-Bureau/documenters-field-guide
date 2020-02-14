@@ -79,7 +79,7 @@ Seek out primary sources and trusted news outlets for the most up-to-date and ac
 [Illinois Open Meetings Act](http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=84&ChapterID=2)
 
 * A state law intended to promote government transparency by requiring that public bodies conduct business and decision-making at meetings open and accessible to the public.
-* See also: [Ballotpedia explaine](https://ballotpedia.org/Illinois_Open_Meetings_Act)r.
+* See also: [Ballotpedia explainer](https://ballotpedia.org/Illinois_Open_Meetings_Act).
 
 [State of Illinois Appointments](https://www2.illinois.gov/sites/bac/SitePages/AppointmentsListing.aspx)
 
