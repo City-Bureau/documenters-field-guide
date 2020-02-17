@@ -1,7 +1,7 @@
 ---
 title: Web Research and Resources
 description: Helpful tips and links to information on local government.
-templateKey: ignore
+templateKey: page-template
 image: /img/web-research.png
 order: 6
 ---

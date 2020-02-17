@@ -4,7 +4,7 @@ description: >-
   Once you're assigned to cover a meeting, be sure to study up before you
   attend. Here are some tips to make the most of your research before you leave
   home.
-templateKey: ignore
+templateKey: page-template
 order: 1
 image: /img/default.png
 ---

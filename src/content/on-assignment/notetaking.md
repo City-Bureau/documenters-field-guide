@@ -6,7 +6,7 @@ description: >-
 
   We’ve listed some best practices below but the truth is, the best notes are
   the notes that help you record accurate information.
-templateKey: ignore
+templateKey: page-template
 image: /img/notetaking.png
 order: 1
 ---
