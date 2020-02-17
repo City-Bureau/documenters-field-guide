@@ -1,7 +1,7 @@
 ---
 title: Documenters Field Guide
 description: Documenters Field Guide
-'pageTemplate,': index-page
+templateKey: index-page
 beforeyoubegin:
   - Charge any electronic devices you will need while on assignment
   - |
@@ -83,4 +83,3 @@ payment:
     question: When will I get paid?
 questions: []
 ---
-A
