@@ -75,8 +75,8 @@ payment:
       fees). If you encounter extenuating circumstances on your commute (for
       example, a train line is shut down or a bus hasn’t come yet) let your
       Documenters Field Coordinator know right away. In most cases, we can
-      suggest alternatives and provide support to get you there on a
-      case-by-case basis, including rideshare reimbursement.
+      suggest alternatives and provide support to get you there, including
+      rideshare reimbursement.
     question: How does the Documenters.org pay scale work?
   - answer: >-
       All required content must be completed before an assignment is approved
