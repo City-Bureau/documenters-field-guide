@@ -1,29 +1,28 @@
 ---
 title: Live-tweeting
-description: ""
-templateKey: "page-template"
-image: "/img/live-tweeting.png"
+description: Live-tweeting
+templateKey: page-template
+image: /img/live-tweeting.png
 order: 2
 ---
-
 > Social media is a great way to have your voice heard, inform your community and connect with engaged global citizens. Twitter is a good place to start in addition to platforms such as Facebook, Instagram, and Snapchat.
 
 # Assignment Requirements
 
-- All Documenters live-tweeting assignments must be tweeting in a single “thread”—see further instructions on threading below.
-- Post at least 10-15 tweets, including photos
-  - Your first tweet must include the following text:
+* All Documenters live-tweeting assignments must be tweeting in a single “thread”—see further instructions on threading below.
+* Post at least 10-15 tweets, including photos
+  * Your first tweet must include the following text:
     \
     \
     **In Chicago:**
-    - _Hi, I’ll be live-tweeting today's (name/title of event) for #ChiDocumenters_
+    * _Hi, I’ll be live-tweeting today's (name/title of event) for #ChiDocumenters_
       _@ChiDocumenters_
       \
       \
       **In Detroit:**
-    - _Hi, I’ll be live-tweeting today's (name/title of event) for #DetroitDocumenters @WDET @CitizenDetroit_
-- Include basic information like the meeting start time, the number of people at the event (not including city officials), an explanation of what the agency does in case your readers aren't familiar with it and the agenda items for the day.
-- Conclude your Twitter thread with a sign off, for example:
+    * _Hi, I’ll be live-tweeting today's (name/title of event) for #DetroitDocumenters @WDET @CitizenDetroit_
+* Include basic information like the meeting start time, the number of people at the event (not including city officials), an explanation of what the agency does in case your readers aren't familiar with it and the agenda items for the day.
+* Conclude your Twitter thread with a sign off, for example:
   _Meeting adjourned at 12:15 p.m. This concludes the \[Your City] Board of Education meeting. The next meeting is scheduled for March 23, 2019. For more meeting coverage, check out documenters.org._
 
 # Example Live Tweet Threads
@@ -42,15 +41,15 @@ order: 2
 
 # Checklist
 
-- [ ] Do you have a Twitter account? Is it set to public so anyone can follow along with your live-tweet threads? If so, great! If you don't have a Twitter account or prefer to keep yours on private settings, create a new account [here](https://twitter.com/i/flow/signup).
-- [ ] Call ahead to check for available wi-fi connection
-- [ ] Search and use popular or common hashtags related to the meeting, department or issue
-- [ ] Send multiple tweets via a single “thread”
-- [ ] Check your notifications for replies and responses
-- [ ] When possible, refer to people and organizations directly by using the @ function
-- [ ] Tweet video and/or photos of the meeting along with your posted text
-- [ ] See the Meeting Notes Guide for more content recommendations
-- [ ] Follow local officials and attendees for future updates and communication
+* Do you have a Twitter account? Is it set to public so anyone can follow along with your live-tweet threads? If so, great! If you don't have a Twitter account or prefer to keep yours on private settings, create a new account [here](https://twitter.com/i/flow/signup).
+* Call ahead to check for available wi-fi connection
+* Search and use popular or common hashtags related to the meeting, department or issue
+* Send multiple tweets via a single “thread”
+* Check your notifications for replies and responses
+* When possible, refer to people and organizations directly by using the @ function
+* Tweet video and/or photos of the meeting along with your posted text
+* See the Meeting Notes Guide for more content recommendations
+* Follow local officials and attendees for future updates and communication
 
 # Threading Your Tweets
 
@@ -62,6 +61,8 @@ Threading keeps your tweets together and in order so that others can easily acce
 4. Select your first tweet.
 5. Tweet your second tweet as a reply to the first, using the speech bubble or the blue "Add Another Tweet" button. Avoid the grey "Add Another Tweet" button as it replies to the selected tweet and may break or loop your thread.
 6. Reply to **each subsequent tweet** to continue the thread.
+
+We also recommend that you refresh/reload your Internet browser window after each tweet (on the mobile Twitter app, touch the top of the screen and drag down). If the WiFi connection is slow or weak (common in public buildings) the lag can create out of order loops or dead ends in your thread.
 
 ![](/img/screen-shot-2019-01-30-at-12.02.46-pm.png)
 
