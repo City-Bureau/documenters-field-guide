@@ -25,7 +25,62 @@ onassignment:
     Need to [introduce yourself](/resources/identifying-yourself/) to attendees
     or committee members? Refer to the back of your Documenters ID card for a
     handy conversation-starter
-payment:
+payment: []
+questions:
+  - answer: >-
+      Public meeting-related assignments are typically posted at least a week in
+      advance, on Mondays, and assigned by that Friday. Documenters are notified
+      of assignments they may apply to, if they have been selected and other
+      training opportunities via email.
+
+
+      When assigning roles we consider a range of factors: each meeting’s topic
+      and format, as well as each applicant’s preferred role, frequency/recency
+      of assignments, technical skill level, past experiences and expressed
+      interests. 
+
+
+      If you are not selected for an assignment you can add yourself to the
+      waitlist. We do not assign roles less than 48 hours ahead of the start
+      time unless the originally assigned Documenter is no longer able to attend
+      or the meeting is posted on short notice.
+
+
+      Each Documenters assignment is an independent contract and there are no
+      expectations as to how frequently you participate in the program. We cover
+      between 8-20 meetings each week; the most active Documenters typically do
+      one assignment per week.
+    question: What is the process for claiming assignments?
+  - answer: >-
+      Post and include all content (notes, Twitter thread, additional documents,
+      images, recordings, etc.) on your Documenters.org assignment page within
+      24 hours of the designated start time, unless otherwise noted.
+
+
+      Before you submit, click on "Checklist" to let us know how things went.
+      For all submissions, we’ll ask for your feedback or advice for future
+      Documenters on this assignment.
+
+
+      Assignments at public meetings have additional Yes/No checkboxes. Most of
+      these, such as if decisions seemed to be made in advance or if officials
+      were attentive and alert, are questions you will be able to answer easily
+      having attended the meeting. A few require closer observation while at the
+      meeting (start and end time, approximate attendance).
+
+
+      **Review**
+
+
+      Once you hit "Submit" your Documenters Field Coordinator will review your
+      submission and may share feedback or tips via email. Occasionally, we may
+      request revisions or additions if the submission did not meet the stated
+      assignment requirements.
+
+
+      Once public meeting-related submissions are approved they become publicly
+      viewable on Documenters.org.
+    question: How do I submit my assignment?
   - answer: >-
       All Documenters.org assignments are independent contracts based on a pay
       rate of $16 per hour, however some assignments also include a minimum base
@@ -99,6 +154,5 @@ payment:
       usually Friday. If you have any questions about payment contact your
       Documenters Field Coordinator.
     question: When will I get paid?
-questions: []
 ---
 TK
