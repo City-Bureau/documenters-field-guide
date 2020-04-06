@@ -1,16 +1,20 @@
 ---
 title: Mobile Photography
-description: ""
-templateKey: "page-template"
-image: "/img/mobile-photography-and-video.png"
+description: >-
+  When it comes to documentation, text is better with images. Be sure to take
+  video and/or photos of your meeting to add context and color to your notes,
+  social media or newsletter.
+templateKey: page-template
+image: /img/mobile-photography-and-video.png
 order: 4
 ---
+## The Basics
 
 > When it comes to documentation, text is better with images. Be sure to take video and/or photos of your meeting to add context and color to your notes, social media or newsletter.
 
 ## Assignment Requirements
 
-- [ ] Check in with a Documenters Field Coordinator for requirements on this role.
+* Check in with a Documenters Field Coordinator for requirements on this role.
 
 ## Tips
 
@@ -22,12 +26,12 @@ order: 4
 
 ## Checklist
 
-- [ ] Charge your device
-- [ ] Check storage space
-- [ ] Familiarize yourself with the controls on your device
-- [ ] Be aware of light and dark spaces
-- [ ] Shoot horizontally
-- [ ] Vary your perspective
-- [ ] Remember the rule of thirds:
+* Charge your device
+* Check storage space
+* Familiarize yourself with the controls on your device
+* Be aware of light and dark spaces
+* Shoot horizontally
+* Vary your perspective
+* Remember the rule of thirds:
 
 ![Rule of thirds diagram](/img/thirds.png)
