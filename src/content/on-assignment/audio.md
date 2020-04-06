@@ -5,14 +5,14 @@ templateKey: page-template
 image: /img/mobile-audio-recording.png
 order: 5
 ---
+## The Basics
+
 > Missed that important quote or phone number? Having a clear audio recording can save time and ensure accuracy by providing a verbatim record. We use audio recordings to share that verbatim record with the public and draft contextualized reports, drawing connections between meetings, board members and public speakers.
 
 ## Assignment Requirements
 
 * **Record in a Single Segment:** Record you assigned meeting in one single file or as few clips as possible.
 * **Timestamp:** Write down key times displayed on your audio device as you record. By the end of your recording, you’ll have a written log that will allow you and our Documenters Manager to quickly find important moments in your audio.
-
-
 
 ## Tips
 
