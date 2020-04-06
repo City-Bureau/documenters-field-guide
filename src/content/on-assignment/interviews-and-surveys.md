@@ -34,7 +34,7 @@ order: 3
 ## Checklist
 
 * Review questions provided with your assignment
-* Prepare your recording device
+* Prepare your recording device/app and find a quiet place to conduct your interview
 * Ask for permission to record each interview or survey 
 * Ask each question listed for your assignment 
 * File your submission form with written text (mandatory) and audio recording (if available)
@@ -43,7 +43,7 @@ order: 3
 
 The following are tips and resources for recording your interview or survey:
 
-1. Using an external recording device is often the easiest and most efficient way to record in-person or phone/video interviews. This can be a handheld recorder or a secondary device such as an phone or tablet to record audio from your primary device. See the “Mobile Audio Recording” section of this field guide for more.
+1. Using an external recording device is often the easiest and most efficient way to record in-person or phone/video interviews. This can be a handheld recorder or a secondary device such as a phone or tablet to record audio from your primary device. See the “Mobile Audio Recording” section of this field guide for more.
 2. If you are conducting an interview via videochat, your videochat service may include a recording function. This option is not available for phone-based survey calls.
 3. **If you do not have an external recorder or secondary device**, City Bureau can provide free access to our [Recordator](https://www.recordator.com/) phone recorder service. Use of Recordator will be approved by a Documenters Field Coordinator upon request. [Use this form to request access](https://airtable.com/shrLXdzBv7L8JnaDd) to City Bureau’s Recordator account no less than 3 hours before your interview or survey.
 4. Know of a way to record your interview or survey that is not mentioned here? Let us know so we can share with the Documenters network.
