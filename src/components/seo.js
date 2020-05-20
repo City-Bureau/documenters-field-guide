@@ -28,7 +28,7 @@ const SEO = ({
           siteDomain
         }
       }
-      socialImage: file(relativePath: { eq: "social-media.jpg" }) {
+      socialImage: file(relativePath: { eq: "social-media.png" }) {
         childImageSharp {
           fixed(width: 1024) {
             ...GatsbyImageSharpFixed
