@@ -88,7 +88,7 @@ We also recommend that you refresh/reload your Internet browser window after eac
 
 ## Alternative Method: Pre-Thread Tweets
 
-We prefer in-the-moment tweets but if you're unable to tweet at the meeting or are still getting the hang of Twitter and threading use this method:
+Sometimes it's not realistic for you to post all tweets in real-time. This method allows you to draft and edit some or all of your tweets in a thread it is published:
 
 1. Type a tweet--but don't post yet.
 2. Tap the blue circle with a plus sign on the lower right side of the text window.
