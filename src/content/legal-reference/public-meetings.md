@@ -1,11 +1,10 @@
 ---
 title: Attending and Recording Public Meetings
-description: ""
-templateKey: "page-template"
-image: "/img/default.png"
+description: Legal overview
+templateKey: page-template
 order: 2
+image: /img/default.png
 ---
-
 In the United States, all 50 states have laws that ensure some level of public access to government meetings. These laws are formulated differently in each state, but as a general rule they establish that public-body meetings will be open to the public unless an exception can be demonstrated, that public bodies will provide advance notice of their meetings, and that they will publish minutes of their proceedings. There are exceptions to these laws, mostly for situations when other rights would be compromised by having a discussion in public.
 
 This guide is focused on the open meetings laws in the states where Documenters currently operates: Illinois and Michigan.
@@ -16,7 +15,7 @@ Both states’ open meetings acts establish the public’s right to attend and r
 
 The Illinois Open Meetings Act and the Michigan Open Meetings Act both apply to all “public bodies.”
 
-## In Illinois
+### In Illinois
 
 Illinois defines public bodies as:
 
@@ -31,6 +30,10 @@ The definition of public body in the Michigan Open Meetings Act is similarly bro
 > “any state or local legislative or governing body, including a board, commission, committee, subcommittee, authority, or council, that is empowered by state constitution, statute, charter, ordinance, resolution, or rule to exercise governmental or proprietary authority or perform a governmental or proprietary function; a lessee of such a body performing an essential public purpose and function pursuant to the lease agreement.”
 
 Both states carve out a few exceptions to the public body definition, and marginal cases are open to interpretation by judges, but as a general rule, any decision-making body that has been established to perform a government function should be covered by these acts.
+
+#### In Ohio
+
+> In the Ohio Open Meetings Act, similar to Illinois and Michigan, public bodies are defined as “decision-making groups of state or local government agencies or institutions. Examples of these bodies include school boards, city councils, and boards of trustees. However, the Open Meetings Act does not apply to some public bodies, such as the Ohio General Assembly and grand juries.”
 
 ### What counts as a meeting?
 
@@ -52,6 +55,10 @@ In Michigan, a meeting is defined as:
 2. “At which a quorum is present” means that the full quorum must be present for the convening to count as a meeting. This is different than in Illinois where a majority of a quorum is enough to make a meeting.
 3. “For the purpose of deliberating toward or rendering a decision on a public policy” means that gatherings where deliberation or decision-making does not occur are excluded. Educational, ceremonial, or social gatherings are therefore not covered unless public business is discussed.
 4. “...or any meeting of the board of a nonprofit corporation formed by a city under section 4o of the home rule city act.” This gets a little in the weeds, but it means that if city has created a nonprofit separate from itself than that nonprofit’s board meetings are also covered under the act.
+
+#### In Ohio
+
+In Ohio, a meeting is defined as “a prearranged gathering of a majority of the members of a public body for the purpose of discussing public business. … For example, if there are five members of a school board, and only two get together to discuss public business, this is not a meeting and the Open Meetings Act would not require it to be open to the public. However, if three members gather to discuss public business, this is a meeting and the Open Meetings Act would require it to be open to the public. Also, if there is a meeting as defined by the Open Meetings Act, the public body must give notice to the public.”
 
 ### Does it matter if you're a journalist?
 
@@ -77,41 +84,51 @@ The act also allow for eleven cases when public bodies otherwise covered under t
 
 As in Illinois, exceptions are narrowly construed, and the public body must publicly vote to close a meeting citing an exception in the act.
 
+#### In Ohio
+
+The Ohio OMA exempts certain bodies from the act. Read a list of those in the full act [here](http://codes.ohio.gov/orc/121.22).
+
 ### Takeaways
 
-- All of the meetings Documenters are assigned to should be covered under each state’s OMA because they are meetings of public bodies organized for the purposes of discussing public business.
-- There are some cases in each state’s OMA when a meeting may be closed. If you are denied entry or asked to leave all or part of a meeting you should comply, but ask for an explanation and record it in your notes.
+* All of the meetings Documenters are assigned to should be covered under each state’s OMA because they are meetings of public bodies organized for the purposes of discussing public business.
+* There are some cases in each state’s OMA when a meeting may be closed. If you are denied entry or asked to leave all or part of a meeting you should comply, but ask for an explanation and record it in your notes.
 
 ## The right to record public meetings
 
 ### In Illinois
 
-According to the Illinois Code of Civil Procedure, “any person may record the proceedings at meetings required to be open [under the Illinois Open Meetings Act] by tape, film or other means,” however, “the authority holding the meeting shall prescribe reasonable rules to govern the right to make such recordings.” Your right to record public meetings is protected by under the Open Meetings Act but be sure to familiarize yourself with (and comply with) the relevant media policies for the public media you are assigned to.
+According to the Illinois Code of Civil Procedure, “any person may record the proceedings at meetings required to be open \[under the Illinois Open Meetings Act] by tape, film or other means,” however, “the authority holding the meeting shall prescribe reasonable rules to govern the right to make such recordings.” Your right to record public meetings is protected by under the Open Meetings Act but be sure to familiarize yourself with (and comply with) the relevant media policies for the public media you are assigned to.
 
 ### In Michigan
 
 Michigan’s Open Meetings Act also protects your right to record public meetings by audio or video, including via live broadcast. But as in Illinois, a public body may establish reasonable rules and regulations to minimize disruption to the meeting.
+
+### In Ohio
+
+Ohio law does not specifically address recording at public meetings, but it is common to do so. The Ohio Attorney General has said it is permissible as long as it does not disrupt the meeting.
+
+
 
 ### Avoid recording private conversations
 
 Be careful not to inadvertently record private conversations while covering public meetings.
 In Illinois, all parties involved in a private conversation must consent to being recorded, and recording a conversation may be illegal if it the recording is done 1) “surreptitiously,” meaning secretly, stealthily, deceptively or through concealment, and 2) the parties in the conversation have a “reasonable expectation” of privacy. The standard for “reasonable expectation” is not entirely clear, but a good rule of thumb is whether or not people could reasonably expect to be overheard by someone not involved in the conversation.
 
-Michigan is also an all-party consent state, meaning that it is illegal to record private conversations without the consent of all parties.
+Michigan is also an all-party consent state, meaning that it is illegal to record private conversations without the consent of all parties. Ohio is a one-party consent state, meaning that it is legal to record a conversation if you are one of the parties in the conversation or you get permission from one of the people in the conversation beforehand.
 
 In general if you are in a public room where a meeting is being held, you can assume that there is not a reasonable expectation of privacy. A good practice while on assignment is not to record conversations outside the space where the public meeting is happening.
 
 ### Takeaways
 
-- Your right to record public meetings is protected by under the Open Meetings Act, sbut be sure to familiarize yourself with (and comply with) the relevant media policies for the public media you are assigned to.
-- Be careful not to record private conversations where people may think they are speaking privately, and display your recording device prominently to avoid being “surreptitious.”
+* Your right to record public meetings is protected by under the Open Meetings Act, sbut be sure to familiarize yourself with (and comply with) the relevant media policies for the public media you are assigned to.
+* Be careful not to record private conversations where people may think they are speaking privately, and display your recording device prominently to avoid being “surreptitious.”
 
 ## Further Reading
 
-- The Reporters Committee for the Freedom of the Press has published several relevant legal guides
-  - [a first amendment handbook](https://www.rcfp.org/resources/first-amendment-handbook/#libel) with a section summarizing libel law
-  - [a guide to open government laws in Illinois](https://www.rcfp.org/open-government-guide/illinois/)
-  - [a guide to open government laws in Michigan](https://www.rcfp.org/open-government-guide/michigan/)
-- The Digital Media Law Project has published [a summary of libel protections under the Fair Report Privilege](http://www.dmlp.org/legal-guide/fair-report-privilege)
-- The full text of the Michigan Open Meetings Act is [here](http://www.legislature.mi.gov/documents/mcl/pdf/mcl-act-267-of-1976.pdf), and a guide to the act from the Michigan Attorney General’s office is [here](https://www.michigan.gov/documents/ag/OMA_handbook_287134_7.pdf).
-- The full text of the Illinois Open Meetings act is [here](http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=84&ChapterID=2), and the Illinois Attorney General’s office has published a guide to the Illinois Open Meetings Act [here](https://www3.rps205.com/District/Documents/openmeet.pdf).
+* The Reporters Committee for the Freedom of the Press has published several relevant legal guides
+  * [a first amendment handbook](https://www.rcfp.org/resources/first-amendment-handbook/#libel) with a section summarizing libel law
+  * [a guide to open government laws in Illinois](https://www.rcfp.org/open-government-guide/illinois/)
+  * [a guide to open government laws in Michigan](https://www.rcfp.org/open-government-guide/michigan/)
+* The Digital Media Law Project has published [a summary of libel protections under the Fair Report Privilege](http://www.dmlp.org/legal-guide/fair-report-privilege)
+* The full text of the Michigan Open Meetings Act is [here](http://www.legislature.mi.gov/documents/mcl/pdf/mcl-act-267-of-1976.pdf), and a guide to the act from the Michigan Attorney General’s office is [here](https://www.michigan.gov/documents/ag/OMA_handbook_287134_7.pdf).
+* The full text of the Illinois Open Meetings act is [here](http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=84&ChapterID=2), and the Illinois Attorney General’s office has published a guide to the Illinois Open Meetings Act [here](https://www3.rps205.com/District/Documents/openmeet.pdf).

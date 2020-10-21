@@ -54,7 +54,7 @@ questions:
   - answer: >-
       Post and include all content (notes, Twitter thread, additional documents,
       images, recordings, etc.) on your Documenters.org assignment page within
-      24 hours of the designated start time, unless otherwise noted.
+      24 hours of the end of the meeting or assignment, unless otherwise noted.
 
 
       Before you submit, click on "Checklist" to let us know how things went.

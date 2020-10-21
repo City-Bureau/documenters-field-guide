@@ -16,13 +16,17 @@ order: 2
   * Your first tweet must include the following text:
     \
     \
-    **In Chicago:**
+    
+**In Chicago:**
     * _Hi, I’ll be live-tweeting today's (name/title of event) for #ChiDocumenters_
       _@ChiDocumenters_
-      \
-      \
-      **In Detroit:**
+      
+**In Detroit:**
     * _Hi, I’ll be live-tweeting today's (name/title of event) for #DetroitDocumenters @WDET @CitizenDetroit_
+
+**In Cleveland:**
+Hi, I'll be live-tweeting today's (name/title of event) for #CLEDocumenters @CLEDocumenters @NeighborUpCLE.
+
 * Include basic information like the meeting start time, the number of people at the event (not including city officials), an explanation of what the agency does in case your readers aren't familiar with it and the agenda items for the day.
 * Conclude your Twitter thread with a sign off, for example:
   _Meeting adjourned at 12:15 p.m. This concludes the \[Your City] Board of Education meeting. The next meeting is scheduled for March 23, 2019. For more meeting coverage, check out documenters.org._
@@ -88,7 +92,7 @@ We also recommend that you refresh/reload your Internet browser window after eac
 
 ## Alternative Method: Pre-Thread Tweets
 
-We prefer in-the-moment tweets but if you're unable to tweet at the meeting or are still getting the hang of Twitter and threading use this method:
+Sometimes it's not realistic for you to post all tweets in real-time. This method allows you to draft and edit some or all of your tweets in a thread it is published:
 
 1. Type a tweet--but don't post yet.
 2. Tap the blue circle with a plus sign on the lower right side of the text window.

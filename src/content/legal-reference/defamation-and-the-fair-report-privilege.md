@@ -1,11 +1,10 @@
 ---
 title: Defamation and the Fair Report Privilege
-description: ""
-templateKey: "page-template"
-image: "/img/default.png"
+description: Legal overview.
+templateKey: page-template
 order: 3
+image: /img/default.png
 ---
-
 ## Defamation Law
 
 ### What is defamation?
@@ -20,11 +19,11 @@ To establish a claim for defamation the accuser must show that the defendant pub
 
 Let’s break that down.
 
-- Published to a third party: this definition is very broad, and includes just telling another person something in conversation.
-- “About the plaintiff” must also apply to a specific individual or individuals and not a general group or category. Broad statements (ex. “all journalists are hacks” don’t qualify”)
-- False: the statement must be provably false. Opinions, even mean ones, do not count as defamation because they can’t be proven false.
-- Damaging: the plaintiff (the person suing) must show that they suffered a harm because the statement was published.
-- Unprivileged: the statement can’t be exempted from defamation under a separate statute or court ruling. The Fair Report Privilege described below is one such privilege.
+* Published to a third party: this definition is very broad, and includes just telling another person something in conversation.
+* “About the plaintiff” must also apply to a specific individual or individuals and not a general group or category. Broad statements (ex. “all journalists are hacks” don’t qualify”)
+* False: the statement must be provably false. Opinions, even mean ones, do not count as defamation because they can’t be proven false.
+* Damaging: the plaintiff (the person suing) must show that they suffered a harm because the statement was published.
+* Unprivileged: the statement can’t be exempted from defamation under a separate statute or court ruling. The Fair Report Privilege described below is one such privilege.
 
 ### A higher standard for public figures
 
@@ -48,17 +47,25 @@ Michigan’s Fair Report Privilege is even broader than Illinois’, covering an
 
 You should make sure not to exclude substantially important information from your report in order to ensure that it qualifies as “fair and “true.”
 
+### In Ohio
+
+Ohio’s Fair Report Privilege covers anything that is a “fair and impartial” report of a public proceeding or a “fair synopsis” of a public document unless “it is proved that such publication was made maliciously.” 
+
+You should make sure not to exclude substantially important information from your notes.
+
 ## Takeaways
 
-- To prove defamation the accuser must show that the defendant published a statement about the plaintiff to a third party that was false, unprivileged, and damaged the plaintiff’s reputation. For public figures, the accuser must also show that the defendant knew the statement was false, or didn’t care if it was true or false.
-- As long as you are covering an official proceeding and your report is substantially accurate, your published notes are covered under the Fair Report Privilege and should be protected from defamation claims. Be careful not to omit any important information in your notes in order to ensure that they meet the standards of the Fair Report Privilege.
+* To prove defamation the accuser must show that the defendant published a statement about the plaintiff to a third party that was false, unprivileged, and damaged the plaintiff’s reputation. For public figures, the accuser must also show that the defendant knew the statement was false, or didn’t care if it was true or false.
+* As long as you are covering an official proceeding and your report is substantially accurate, your published notes are covered under the Fair Report Privilege and should be protected from defamation claims. Be careful not to omit any important information in your notes in order to ensure that they meet the standards of the Fair Report Privilege.
 
 ## Further Reading
 
-- The Reporters Committee for the Freedom of the Press has published several relevant legal guides
-  - [a first amendment handbook](https://www.rcfp.org/resources/first-amendment-handbook/#libel) with a section summarizing libel law
-  - [a guide to open government laws in Illinois](https://www.rcfp.org/open-government-guide/illinois/)
-  - [a guide to open government laws in Michigan](https://www.rcfp.org/open-government-guide/michigan/)
-- The Digital Media Law Project has published [a summary of libel protections under the Fair Report Privilege](http://www.dmlp.org/legal-guide/fair-report-privilege)
-- The full text of the Michigan Open Meetings Act is [here](http://www.legislature.mi.gov/documents/mcl/pdf/mcl-act-267-of-1976.pdf), and a guide to the act from the Michigan Attorney General’s office is [here](https://www.michigan.gov/documents/ag/OMA_handbook_287134_7.pdf).
-- The full text of the Illinois Open Meetings act is [here](http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=84&ChapterID=2), and the Illinois Attorney General’s office has published a guide to the Illinois Open Meetings Act [here](https://www3.rps205.com/District/Documents/openmeet.pdf).
+* The Reporters Committee for the Freedom of the Press has published several relevant legal guides
+  * [a first amendment handbook](https://www.rcfp.org/resources/first-amendment-handbook/#libel) with a section summarizing libel law
+  * [a guide to open government laws in Illinois](https://www.rcfp.org/open-government-guide/illinois/)
+  * [a guide to open government laws in Michigan](https://www.rcfp.org/open-government-guide/michigan/)
+  * [a citizen’s guide to open government laws in Ohio](https://www.rcfp.org/open-government-guide/ohio/)
+* The Digital Media Law Project has published [a summary of libel protections under the Fair Report Privilege](http://www.dmlp.org/legal-guide/fair-report-privilege)
+* The full text of the Michigan Open Meetings Act is [here](http://www.legislature.mi.gov/documents/mcl/pdf/mcl-act-267-of-1976.pdf), and a guide to the act from the Michigan Attorney General’s office is [here](https://www.michigan.gov/documents/ag/OMA_handbook_287134_7.pdf).
+* The full text of the Illinois Open Meetings act is [here](http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=84&ChapterID=2), and the Illinois Attorney General’s office has published a guide to the Illinois Open Meetings Act [here](https://www3.rps205.com/District/Documents/openmeet.pdf).
+* The full text of the Ohio Open Meetings act is [here](http://codes.ohio.gov/orc/Search/2317.04+), and the Ohio Attorney General’s office has published FAQ’s about the Ohio Open Meetings Act [here](https://www.ohioattorneygeneral.gov/FAQ/Sunshine-Laws-FAQs#FAQ336) and a manual [here](https://www.ohioattorneygeneral.gov/YellowBook).

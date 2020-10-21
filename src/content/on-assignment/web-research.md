@@ -83,3 +83,55 @@ order: 6
 [State of Illinois Appointments](https://www2.illinois.gov/sites/bac/SitePages/AppointmentsListing.aspx)
 
 * Database of state boards and commissions, their power and responsibilities, members and how they are selected.
+
+
+
+## Cleveland
+
+[Cleveland Legistar](https://cityofcleveland.legistar.com/)
+
+* Management system used by Cleveland City Council to post information about City Council committees, meetings and legislation.
+* Tip: Information on Legistar may appear on the website or in a PDF format. These versions are not necessarily exactly the same so it’s worth looking over both.
+* Tip: if a meeting is scheduled but the agenda has not been posted yet, you can get a sense of what’s in the pipeline in the “Legislation” tab.
+  * Click the “Search Legislation” button. It may take a few seconds to load.
+
+[Cleveland City Council](https://clevelandcitycouncil.org/)
+
+* Use this site to find information about council members with photos and bios.
+* Under the “About City Council” section, find information about what City Council committees do and the procedures they are required to follow.
+
+[City of Cleveland Code of Ordinances](https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-1)
+
+* Published compilation of City laws and their revisions organized according to subject matter (arranged by title, chapter and section). The Code of Ordinances is updated periodically as new ordinances are adopted by the City Council.
+
+[City Departments, Boards and Commissions](http://www.city.cleveland.oh.us/sites/default/files/forms_publications/10-2015ClevelandOrgChart.pdf)
+
+* Helpful to review for more information about specific departments, boards or commissions. 
+* Check out [this .pdf](http://www.city.cleveland.oh.us/sites/default/files/forms_publications/10-2015ClevelandOrgChart.pdf) showing how city departments and divisions are organized.
+
+## Cuyahoga County
+
+[Cuyahoga County Ordinances](http://council.cuyahogacounty.us/en-US/legislation.aspx)
+
+* A list of the motions, resolutions and ordinances passed by the Cuyahoga County Council
+
+[Cuyahoga County Organizational Chart](https://cuyahogacounty.us/my-government/county-organization-amp-ordinances/organizational-chart) 
+
+* A pdf of departments, boards and commissions. 
+
+## State of Ohio
+
+[Ohio General Assembly](https://www.legislature.ohio.gov/)
+
+* A database of legislation searchable by subject and when it was introduced to if/when it is passed as law by the Illinois General Assembly.
+* Ohio Revised Code
+  * General laws of the state organized by title and chapter.
+
+[Ohio Open Meetings Act](https://www.ohioattorneygeneral.gov/FAQ/Sunshine-Laws-FAQs#:~:text=The%20Open%20Meetings%20Act%20requires,ORC%20121.22.)
+
+* A state law intended to promote government transparency by requiring that public bodies conduct business and decision-making at meetings open and accessible to the public.
+  * See also: [Ballotpedia explainer](https://ballotpedia.org/Ohio_Open_Meetings_Law).
+
+[State of Ohio Boards and Commissions](https://governor.ohio.gov/wps/portal/gov/governor/administration/boards-and-commissions/boards-commissions)
+
+* A list of state boards and commissions with links to their websites for details on their power and responsibilities, members and how they are selected.
