@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: City-Bureau/documenters-field-guide
+  branch: main
 
 # publish_mode: editorial_workflow
 
