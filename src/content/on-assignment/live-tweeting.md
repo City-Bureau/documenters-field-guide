@@ -13,23 +13,24 @@ order: 2
 
 * All Documenters live-tweeting assignments must be tweeting in a single “thread”—see further instructions on threading below.
 * Post at least 10-15 tweets, including photos
+
   * Your first tweet must include the following text:
     \
     \
-    
+
 **In Chicago:**
-    * _Hi, I’ll be live-tweeting today's (name/title of event) for #ChiDocumenters_
-      _@ChiDocumenters_
-      
+    * *Hi, I’ll be live-tweeting today's (name/title of event) for #ChiDocumenters*
+      *@ChiDocumenters*
+
 **In Detroit:**
-    * _Hi, I’ll be live-tweeting today's (name/title of event) for #DetroitDocumenters @WDET @CitizenDetroit_
+    * *Hi, I’ll be live-tweeting today's (name/title of event) for #DetroitDocumenters @WDET @CitizenDetroit @Detour_Detroit*
 
 **In Cleveland:**
 Hi, I'll be live-tweeting today's (name/title of event) for #CLEDocumenters @CLEDocumenters @NeighborUpCLE.
 
 * Include basic information like the meeting start time, the number of people at the event (not including city officials), an explanation of what the agency does in case your readers aren't familiar with it and the agenda items for the day.
 * Conclude your Twitter thread with a sign off, for example:
-  _Meeting adjourned at 12:15 p.m. This concludes the \[Your City] Board of Education meeting. The next meeting is scheduled for March 23, 2019. For more meeting coverage, check out documenters.org._
+  *Meeting adjourned at 12:15 p.m. This concludes the \[Your City] Board of Education meeting. The next meeting is scheduled for March 23, 2019. For more meeting coverage, check out documenters.org.*
 
 ## Example Live Tweet Threads
 
