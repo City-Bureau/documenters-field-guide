@@ -19,4 +19,4 @@ Call or text 216-361-9149
 
 ### Non-immediate needs
 
-email us directly at <mailto:documenters@citybureau.org>
+Email us directly at <mailto:documenters@citybureau.org>
