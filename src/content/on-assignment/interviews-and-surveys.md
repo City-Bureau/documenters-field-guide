@@ -15,7 +15,9 @@ order: 3
 
 ## Assignment Requirements
 
-* While some interviews and surveys may be completed without an audio recording an attempt to record all interviews and surveys must be made—however, you must always ask to record an interview before you begin (i.e. “Do you mind if I record this call to make sure we have your responses logged accurately.”) Affirmative permission to record conversations [is the law in Illinois](https://www.dmlp.org/legal-guide/illinois-recording-law).
+* While some interviews and surveys may be completed without an audio recording an attempt to record all interviews and surveys must be made—however, you must always ask to record an interview before you begin (i.e. “Do you mind if I record this call to make sure we have your responses logged accurately.”) 
+  * In Illinois, affirmative permission to record conversations.
+  * In Ohio, only one party must consent to legally record a call but for transparency, we suggest telling a person if you are recording them for accuracy or if audio from the interview might be published.
 * Check in with a Documenters Field Coordinator for requirements on your assignment, including audio recordings
 
 ## Tips

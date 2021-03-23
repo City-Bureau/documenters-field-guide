@@ -18,8 +18,8 @@ onassignment:
     Gather any documents distributed at the meeting to reference and include
     with your assignment submission
   - >-
-    Sign up for public meeting-related newsletters and listerv using
-    documenters@citybureau.org
+    Sign up for public meeting-related newsletters and listerv in Chicago using
+    documenters@citybureau.org. In Cleveland, use cledocumenters@gmail.com
   - Do not engage directly in public comment sessions while on assignment
   - >-
     Need to [introduce yourself](/resources/identifying-yourself/) to attendees
