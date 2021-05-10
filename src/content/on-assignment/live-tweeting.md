@@ -15,8 +15,7 @@ order: 2
 * Post at least 10-15 tweets, including photos
 
   * Your first tweet must include the following text:
-    \
-    \
+
 
 **In Chicago:**
     * *Hi, I’ll be live-tweeting today's (name/title of event) for #CHIdocumenters*
