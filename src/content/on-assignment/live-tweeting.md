@@ -24,7 +24,7 @@ order: 2
     * _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @DETdocumenters—@media_outlier @WDET @freep @Detour_Detroit_
 
 **In Cleveland:**
-Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters @NeighborUpCLE.
+Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters @NeighborUpCLE
 
 * Include basic information like the meeting start time, the number of people at the event (not including city officials), an explanation of what the agency does in case your readers aren't familiar with it and the agenda items for the day.
 * Conclude your Twitter thread with a sign off, for example:
