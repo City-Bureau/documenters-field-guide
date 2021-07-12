@@ -21,7 +21,7 @@ order: 2
       _@CHIdocumenters_
 
 **In Detroit:**
-    * _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @DETdocumenters—@media_outlier @WDET @freep @Detour_Detroit_
+    * _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters—@media_outlier  @Detour_Detroit  @PlanetDetroit  @freep  @wdet  @DETdocumenters
 
 **In Cleveland:**
 Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters @NeighborUpCLE
