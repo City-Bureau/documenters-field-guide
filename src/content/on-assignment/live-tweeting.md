@@ -16,11 +16,11 @@ order: 2
   * Your first tweet must include the following text:
 
 
-**In Chicago:** _Hi, I’ll be live-tweeting today's (name/title of event) for #CHIdocumenters @CHIdocumenters_
-
-**In Detroit:** _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @media\_outlier @Detour_Detroit @PlanetDetroit @freep  @wdet  @DETdocumenters_
-
-**In Cleveland:** _Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters @NeighborUpCLE_
+> **In Chicago:** _Hi, I’ll be live-tweeting today's (name/title of event) for #CHIdocumenters @CHIdocumenters_
+>
+> **In Detroit:** _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @media\_outlier @Detour_Detroit @PlanetDetroit @freep  @wdet  @DETdocumenters_
+>
+> **In Cleveland:** _Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters @NeighborUpCLE_
 
 * Include basic information like the meeting start time, the number of people at the event (not including city officials), an explanation of what the agency does in case your readers aren't familiar with it and the agenda items for the day.
 * Conclude your Twitter thread with a sign off, for example:
