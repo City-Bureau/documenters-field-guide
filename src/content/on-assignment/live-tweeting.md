@@ -18,7 +18,7 @@ order: 2
 
 > **In Chicago:** _Hi, I’ll be live-tweeting today's (name/title of event) for #CHIdocumenters @CHIdocumenters_
 >
-> **In Detroit:** _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @media\_outlier @Detour_Detroit @PlanetDetroit @freep  @wdet  @DETdocumenters_
+> **In Detroit:** _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @media\_outlier @Detour\_Detroit @PlanetDetroit @freep  @wdet  @DETdocumenters_
 >
 > **In Cleveland:** _Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters @NeighborUpCLE_
 
