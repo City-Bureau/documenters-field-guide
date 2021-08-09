@@ -11,7 +11,7 @@ Call or text 708-820-2154
 
 ### Detroit
 
-Call or text 313-510-5523
+Call or text 415-336-8758
 
 **Cleveland**
 
