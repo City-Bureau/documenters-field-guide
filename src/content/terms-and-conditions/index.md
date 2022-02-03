@@ -10,13 +10,13 @@ order: 1
 
 Our three most common assignments: 1) meeting notes + audio recording 2) live-tweeting + photos 3) special assignments.
 
-All Documenters.org assignments are independent contracts based on a pay rate of \$16 per hour, however some assignments also include a minimum base rate. Please note that City Bureau is not responsible for reimbursement of incidental expenses such as transit fare, highway tolls, parking, mileage, data use, food, etc.
+All Documenters.org assignments in Chicago, Cleveland and Detroit are independent contracts based on a pay rate of \$16 per hour, however some assignments also include a minimum base rate. In Minneapolis, documenters.org assignments are part-time employment based on a pay rate of \$20 per hour.  Please note that City Bureau or any of the Documenters affiliates are not responsible for reimbursement of incidental expenses such as transit fare, highway tolls, parking, mileage, data use, food, etc.
 
 ---
 
 ### Public meeting-related assignments
 
-- We pay \$16 per hour.
+- Documenters are paid \$16 per hour in Chicago, Cleveland and Detroit. Documenters in Minneapolis are paid \$20 per hour
 - For meetings that run 2 hours or less, default pay is 3.5 hours: 2 hours for meeting attendance + 1.5 hours for pre-research, follow-up work, note editing, uploading, etc.
 - If a meeting runs longer, we adjust your compensation to the meeting duration (rounded up to the nearest half hour) + 1.5 hours.
 - If your assigned meeting is cancelled less than 72 hours in advance of the scheduled start time, we pay a “kill fee” of \$16.
