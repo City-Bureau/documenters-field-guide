@@ -17,6 +17,10 @@ Call or text 415-336-8758
 
 Call or text 216-361-9149
 
+**Minneapolis**
+
+Email documenterspuc@gmail.com
+
 ### Non-immediate needs
 
 Email us directly at <mailto:documenters@citybureau.org>
