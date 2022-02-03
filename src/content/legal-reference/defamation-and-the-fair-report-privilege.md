@@ -53,6 +53,10 @@ Ohio’s Fair Report Privilege covers anything that is a “fair and impartial�
 
 You should make sure not to exclude substantially important information from your notes.
 
+### In Minnesota
+
+Coming soon!
+
 ## Takeaways
 
 * To prove defamation the accuser must show that the defendant published a statement about the plaintiff to a third party that was false, unprivileged, and damaged the plaintiff’s reputation. For public figures, the accuser must also show that the defendant knew the statement was false, or didn’t care if it was true or false.
