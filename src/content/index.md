@@ -18,8 +18,8 @@ onassignment:
     Gather any documents distributed at the meeting to reference and include
     with your assignment submission
   - >-
-    Sign up for public meeting-related newsletters and listerv in Chicago using
-    documenters@citybureau.org. In Cleveland, use cledocumenters@gmail.com
+    Sign up for public meeting-related newsletters and listerv in Chicago by emailing
+    documenters@citybureau.org. In Cleveland, email cledocumenters@gmail.com . In Detroit, email documenters@outliermedia.org . In Minneapolis, email documenterspuc@gmail.com
   - Do not engage directly in public comment sessions while on assignment
   - >-
     Need to [introduce yourself](/resources/identifying-yourself/) to attendees
@@ -101,7 +101,7 @@ questions:
       * If your assigned meeting is cancelled less than 72 hours in advance of
       the scheduled start time, we will pay you a "kill fee" of $16.
 
-      * City Bureau is not obligated to pay a kill fee if you are unable to
+      * City Bureau and Documenters affiliates are not obligated to pay a kill fee if you are unable to
       attend an assigned meeting (i.e. due to transportation delays, unexpected
       illness, a family emergency). In such a situation, you may share any
       research you did in preparation for the assignment and we will consider
