@@ -102,35 +102,22 @@ For meetings that run over 4 hours, we will pay for “outside work” hours tha
 See the question below for a chart detailing the amount of pay based on the length of a meeting.
 Each assignment will include information about whether it is happening in person, via a virtual platform or both (hybrid). In most cases, you will get to choose how you tune in to the meeting, but any meetings documented in person will include an extra hour ($18) of pay. If you expect to be late to the meeting due to public transit issues, let Documenters staff know right away. 
 Live-tweeting and note-taking assignments are paid using the same pay scale. Though they are very different tasks, they are equally demanding in their own ways. Notes require more revision/editing and time. Live-tweeting is less time-consuming but requires additional technical skills, quick-thinking and accuracy in the moment.
-
       * If a meeting runs longer, we adjust your compensation to the meeting
       duration (rounded up to the nearest half hour) + 1.5 hours.
-
       * If your assigned meeting is cancelled less than 72 hours in advance of
       the scheduled start time, all sites will pay you a "kill fee" equivalent to 1 hour of their local pay scale.
-
       * City Bureau and Documenters affiliates are not obligated to pay a kill fee if you are unable to
       attend an assigned meeting (i.e. due to transportation delays, unexpected
       illness, a family emergency). If you are unable to attend an assigned meeting please reply to your assignment email as soon as possible to let us know; we’re usually able to find someone else to cover it if given a few days’ notice. You may share any research you did in preparation for the assignment and we will consider paying you the kill fee.
-
-
       Please include the exact duration of your assigned meeting in your
       submission checklist (meeting duration is confirmed through meeting
       minutes, official confirmation and Documenter checklists).
-
-
       **Special Assignments:**
-
-
       Unless otherwise noted in the assignment details, Street Team assignments
       and Special Assignments are paid at the local hourly rate mentioned above rounded up to the nearest
       half-hour. View your assigned meeting on Documenters.org for details and
       contact our Documenters Field Coordinator for questions.
-
-
       **Transportation:**
-
-
       Legally, we cannot reimburse contractors for typical time or costs
       associated with getting to your assignment (i.e. gas, toll fees, transit
       fees). If you encounter extenuating circumstances on your commute (for
@@ -138,7 +125,6 @@ Live-tweeting and note-taking assignments are paid using the same pay scale. Tho
       Documenters Field Coordinator know right away. In most cases, we can
       suggest alternatives and provide support to get you there, including
       rideshare reimbursement.
-   
     question: When will I get paid?
   - answer: >-
       All required content must be completed before an assignment is approved
