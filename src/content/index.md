@@ -122,8 +122,7 @@ questions:
       Documenters Field Coordinator know right away. In most cases, we can
       suggest alternatives and provide support to get you there, including
       rideshare reimbursement.
-   question: How does the Documenters.org pay scale work?
-
+    question: How does the Documenters.org pay scale work?
   - answer: >-
       All required content must be completed before an assignment is approved
       and payment is released. City Bureau and o reserves the right to cancel payment
@@ -144,6 +143,6 @@ questions:
       days after we press the button. If there are no bank holidays, this is
       usually Friday. If you have any questions about payment contact your
       Documenters Field Coordinator.
-   question: When will I get paid?
+    question: When will I get paid?
 ---
 TK
