@@ -139,7 +139,7 @@ Live-tweeting and note-taking assignments are paid using the same pay scale. Tho
       suggest alternatives and provide support to get you there, including
       rideshare reimbursement.
    
-   question: When will I get paid?
+    question: When will I get paid?
   - answer: >-
       All required content must be completed before an assignment is approved
       and payment is released. City Bureau and o reserves the right to cancel payment
