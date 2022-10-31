@@ -55,9 +55,12 @@ questions:
   - answer: >-
       All Documenters.org assignments in Atlanta, Chicago, Cleveland, Detroit, Fresno and Omaha are independent contracts. Atlanta, Cleveland and Detroit assignments are based on a pay rate of $16 per hour. Omaha assignments are based on a pay rate of $15 per hour. Chicago Documenters assignments are  based on a pay rate of $18 per hour. Fresno Documenters assignments are based on a pay rate of $20 per hour. Minneapolis assignments are part-time work based on a pay rate of $20 per hour. Our most common assignments are taking notes or live-tweeting government open meetings. For special assignments, each posting will include estimated hours needed for completion.
 
-      * **In Atlanta, Cleveland and Detroit,** for meetings that run 2 hours or less, default pay per assignment is $56. This assumes a total of 3.5 hours: 2 hours for meeting attendance + 1.5 hours for pre-research, follow-up work, note editing, uploading, etc. 
-      * **In Fresno and Minneapolis,** for meetings that run 2 hours or less, default pay is $70: 2 hours for meeting attednance + 1.5 hours for pre-research, follow-up work, note editing, uploading, etc. 
+      * **In Atlanta, Cleveland and Detroit,** for meetings that run 2 hours or less, default pay per assignment is $56. This assumes a total of 3.5 hours: 2 hours for meeting attendance + 1.5 hours for pre-research, follow-up work, note editing, uploading, etc.
+
+      * **In Fresno and Minneapolis,** for meetings that run 2 hours or less, default pay is $70: 2 hours for meeting attendance + 1.5 hours for pre-research, follow-up work, note editing, uploading, etc.
+
       * **In Omaha,** for meetings that run 2 hours or less, default pay per assignment is $52.50. This assumes a total of 3.5 hours: 2 hours for meeting attendance + 1.5 hours for pre-research, follow-up work, note editing, uploading, etc. 
+
       * **For Chicago public meeting-related assignments,** your assignment hours include the total meeting duration and outside work.
       **“Total meeting duration”** is the time between a meeting’s scheduled start time to the actual end time (when the meeting ends and/or you stop documenting it), including closed or executive session.
       **“Outside work”** refers to the time you spend doing pre-meeting research and post-meeting revisions. 
