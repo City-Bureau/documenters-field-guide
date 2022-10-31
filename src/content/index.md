@@ -62,7 +62,9 @@ questions:
       * **In Omaha,** for meetings that run 2 hours or less, default pay per assignment is $52.50. This assumes a total of 3.5 hours: 2 hours for meeting attendance + 1.5 hours for pre-research, follow-up work, note editing, uploading, etc. 
 
       * **For Chicago public meeting-related assignments,** your assignment hours include the total meeting duration and outside work.
+
       **“Total meeting duration”** is the time between a meeting’s scheduled start time to the actual end time (when the meeting ends and/or you stop documenting it), including closed or executive session.
+
       **“Outside work”** refers to the time you spend doing pre-meeting research and post-meeting revisions. 
       For meetings where the “total meeting duration” is 4 hours or shorter, we’ll pay for two hours of “outside work.”
       For meetings that run over 4 hours, we will pay for “outside work” hours that equal half of the meeting duration. So, if you cover a 5-hour meeting, we would compensate you for 2.5 hours of “outside work,” and for a 6-hour meeting, we would pay for 3 hours of “outside work.”
