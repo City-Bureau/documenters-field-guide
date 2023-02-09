@@ -22,7 +22,7 @@ order: 1
 
 ## Assignment Requirements
 
-* See our [notes template](https://docs.google.com/document/d/1Baxzo28f2helPaHSOxltrc-SQTHjNEDsZPSUkHEiGfw/edit?usp=sharing) for instructions
+* See our Notes Templates [ATL](https://docs.google.com/document/d/1Eiz91CXfWahaRE8_h_DTSIxN3nx1KCSwGoPQV-vGxfc/edit), [CHI](https://docs.google.com/document/d/1MYNmaeY_kmIFzB8tLnkdmFv7RegzTlW5PHp4ZsM8zWo/edit), [CLE](https://docs.google.com/document/d/18bj2r_MRtjiZliiDpasSFCvYDlum9iPcVW5zCJ7W-M0/edit), [DET](https://docs.google.com/document/d/16vtDOh_jZ2_aMGnPWLG5f2htnpcfvgC-NSyLUeu_cLU/edit), [FRE](https://docs.google.com/document/d/1g20sdWeZh3IEsfJ-zTzsqjvuL_rEsFNyB5W5RFxBn2I/edit), [MPLS](https://docs.google.com/document/d/1g20sdWeZh3IEsfJ-zTzsqjvuL_rEsFNyB5W5RFxBn2I/edit), [OMA](https://docs.google.com/document/d/1Iq9cvnC-_8o04YFVpEztzw9iDTsuW_RagMWuzNM-Th4/edit)  for instructions
 * Submit your notes, summary and follow-up questions within 24 hours after the meeting ends
 
 ## Example Meeting Notes
