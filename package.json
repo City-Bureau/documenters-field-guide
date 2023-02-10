@@ -23,7 +23,6 @@
     "gatsby-transformer-remark": "^2.6.9",
     "gatsby-transformer-sharp": "^2.1.9",
     "netlify-cms-app": "^2.9.6",
-    "node-sass": "^4.11.0",
     "parcel-bundler": "^1.9.4",
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
@@ -32,6 +31,7 @@
     "remark": "^11.0.2",
     "remark-html": "^10.0.0",
     "remark-preset-lint-recommended": "^3.0.3",
+    "sass": "^1.58.0",
     "uuid": "^3.2.1"
   },
   "browserslist": [
