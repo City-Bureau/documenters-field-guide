@@ -20,11 +20,11 @@ order: 2
 >
 >**In Cleveland:** _Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters & @signalcleveland
 >
->  **In Detroit:** _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @DetDocumenters media partners: @BridgeDet313 @chalkbeatDET @freep @metrotimes @MichiganRadio @media_outlier @PlanetDetroit @wdet @wxyzdetroit
+>  **In Detroit:** _Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @DetDocumenters media partners: @BridgeDet313 @chalkbeatDET @freep @metrotimes @MichiganRadio @media\_outlier @PlanetDetroit @wdet @wxyzdetroit
 >
 > **In Fresno:** _Hi, I'll be live-tweeting today's (name/title of event) for #FREdocumenters @fresnoland
 > 
-> **In Omaha:** _Hi, I'll be live-tweeting today's (name/title of event) for #OMAdocumenters @oma_documenters
+> **In Omaha:** _Hi, I'll be live-tweeting today's (name/title of event) for #OMAdocumenters @oma\_documenters
 
 * Include basic information like the meeting start time, the number of people at the event (not including city officials), an explanation of what the agency does in case your readers aren't familiar with it and the agenda items for the day.
 * Conclude your Twitter thread with a sign off, for example:
