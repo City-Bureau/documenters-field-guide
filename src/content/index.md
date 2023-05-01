@@ -96,13 +96,13 @@ questions:
       suggest alternatives and provide support to get you there, including rideshare reimbursement.
     question: How does the Documenters.org pay scale work?
   - answer: >-
-      All required content must be completed before an assignment is approved and payment is released. City Bureau and o reserves the right to cancel payment for late or incomplete submissions.
+      All required content must be completed before an assignment is approved and payment is released. City Bureau and our affiliates reserve the right to cancel payment for late or incomplete submissions.
 
 
-      After you are assigned to your first role you’ll receive an email from City Bureau’s operations team, as well as an invite to join Gusto, the system we use to manage payments. Click the link in the email to create a Gusto account and enter your Social Security number, address, and bank account coordinates (The information is kept securely by Gusto). Once that information is entered you’ll be set up for direct deposit, and you’ll also be able to login anytime to see your payment records or tax forms.
+      **In Chicago** After you are assigned to your first role you’ll receive an email from Gusto, the system we use to manage payments. Click the link in the email to create a profile as a City Bureau contractor on Gusto. You'll be asked to enter your Social Security number, address, and bank account coordinates (The information is kept securely by Gusto). Once that information is entered you’ll be set up for direct deposit, and you’ll also be able to login anytime to see your payment records or tax forms.
 
 
-      We run payments for all approved assignments every Monday, and, provided you've set up your Gusto profile, the payment will be in your account 5 days after we press the button. If there are no bank holidays, this is usually Friday. If you have any questions about payment contact your Documenters Field Coordinator.
+       City Bureau typically runs payments for all approved assignments every Wednesday. If your Gusto contractor profile is complete, the payment will be in your account 5 days after we press the button. If there are no bank holidays, this is usually Friday. If you have any questions about payment contact your Documenters Field Coordinator.
     question: When will I get paid?
 ---
 TK
