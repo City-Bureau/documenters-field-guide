@@ -13,7 +13,7 @@ Email documenters@canopyatlanta.org
 
 Call or text 708-820-2154
 
-**Cleveland**
+### Cleveland
 
 Call or text 216-361-9149
 
@@ -29,7 +29,7 @@ Call or text 415-336-8758
 
 Email heather@fresnoland.org	
 
-**Minneapolis**
+### Minneapolis 
 
 Email documenterspuc@gmail.com
 
