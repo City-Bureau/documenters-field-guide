@@ -20,7 +20,7 @@ order: 2
 >
 > **In Cleveland:** *Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters & @signalcleveland*
 >
-> **In Detroit:** *Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @DetDocumenters media partners: @BridgeDet313 @chalkbeatDET @freep @metrotimes @MichiganRadio @media_outlier @PlanetDetroit @wdet @wxyzdetroit*
+> **In Detroit:** *Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @DetDocumenters media partners: @BridgeDet313 @chalkbeatDET @freep @metrotimes @Michigan_Public @media_outlier @PlanetDetroit @wdet @wxyzdetroit*
 >
 > **In Fresno:** *Hi, I'll be live-tweeting today's (name/title of event) for #FREdocumenters @fresnoland*
 > 
