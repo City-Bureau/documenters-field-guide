@@ -20,10 +20,10 @@ order: 2
 >
 > **In Cleveland:** *Hi, I'll be live-tweeting today's (name/title of event) for #CLEdocumenters @CLEdocumenters & @signalcleveland*
 >
-> **In Detroit:** *Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @DetDocumenters media partners: @BridgeDet313 @chalkbeatDET @freep @metrotimes @Michigan_Public @media_outlier @PlanetDetroit @wdet @wxyzdetroit*
+> **In Detroit:** *Hi, I’ll be live-tweeting today's (name/title of event) for #DETdocumenters @DetDocumenters media partners: @BridgeDet313 @chalkbeatDET @freep @metrotimes @Michigan\_Public @media\_outlier @PlanetDetroit @wdet @wxyzdetroit*
 >
 > **In Fresno:** *Hi, I'll be live-tweeting today's (name/title of event) for #FREdocumenters @fresnoland*
-> 
+>
 > **In Omaha:** *Hi, I'll be live-tweeting today's (name/title of event) for #OMAdocumenters @oma_documenters*
 
 * Include basic information like the meeting start time, the number of people at the event (not including city officials), an explanation of what the agency does in case your readers aren't familiar with it and the agenda items for the day.
