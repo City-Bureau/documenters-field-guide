@@ -39,7 +39,7 @@ Email abbie@omahadocumenters.org
 
 ### Philadelphia
 
-Email documenters@resolvephilly.org	
+Email documenters@resolvephilly.org	or call or text 215-346-6823
 
 ### Non-immediate needs
 
